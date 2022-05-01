@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Qing Chang</title>
+    <link>https://qingchang166.github.io/publication-type/3/</link>
+      <atom:link href="https://qingchang166.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://qingchang166.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Land Price Distortion and Rural Inequality</title>
+      <link>https://qingchang166.github.io/working-paper/inequality/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/working-paper/inequality/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Existing literature demonstrates that local governments intentionally reduce industrial land prices to attract investment while increasing residential land prices to boost government revenue. This “development on land” strategy promotes economic growth but comes with the cost of increasingly inequality in rural areas. This paper provides systematically empirical evidence of how local governments’ intervention in residential land prices worsens rural inequality. I construct a dataset on rural inequality using nightlight density from satellite imagery. This approach allows me to measure inequality based on geographical boundary. Combining this dataset with land price data extracted from government digital archives, I show how residential land price distortion contributes substantively to rural inequality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Career Incentives, Inter-jurisdiction Competition, and Economic Development Incentives : Empirical Evidence from Land Prices in China</title>
+      <link>https://qingchang166.github.io/working-paper/develop_incentive/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/working-paper/develop_incentive/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: How do political incentives influence the use of economic development incentives? This paper provides causal evidence on how politicians&amp;rsquo; career incentives and competition among neighborhood jurisdictions affect frequently used development incentives: industrial and residential land. Using geographic regression discontinuity design and a spatial regression on millions of land transaction data and thousands of local political leaders&amp;rsquo; career records, I find politicians&amp;rsquo; career incentive leads to a decrease in both the industrial and residential land price whereas inter-jurisdiction competition leads to a decrease in industrial and an increase in the residential land price. In contrast to the large literature that does not separate the effects of career incentives and inter-jurisdiction competition, this paper demonstrates the importance of differentiating these two effects on identifying the effects of political incentives on development incentives.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Information Asymmetry in Political Selection: Performance versus Patronage</title>
+      <link>https://qingchang166.github.io/working-paper/geo_selection/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/working-paper/geo_selection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Information asymmetry is the core parameter in the principal agent model, but empirical studies tend to assume this by default and study its effect on outcomes of interest rather than measure information asymmetry explicitly. This paper develops a measure for information asymmetry and applies it to political selection in China to study how information asymmetry affects sub-national leaders&amp;rsquo; promotion. I find that performance and patronage do matter in political promotion, but their effects depend on the intensity of information asymmetry: the higher the information asymmetry, the higher the effect of performance and connection on political promotion. However, a more detailed study reveals that performance and connection contributes differently to promotion. Specifically, performance does not contribute to promotion when information asymmetry is not severe but begins to affect promotion when information asymmetry is increasingly severe. In contrast, connection increases promotion when information asymmetry is not severe but does not affect promotion at all when information asymmetry is severe. These findings challenge the theoretical arguments that 1) political selection in China is either a meritocratic or patronage system, and 2) patronage is a complement of formal contract (institutions) when there is a severe information asymmetry.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
