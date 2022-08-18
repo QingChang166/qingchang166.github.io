@@ -41,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -64,7 +64,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Fall 2022" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://qingchang166.github.io/courses/ps2010/" />
@@ -252,7 +252,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
+  <link rel="stylesheet" href="/css/wowchemy.c1e09fd98f1a8b34439b0226df90a2b7.css" />
 
   
 
@@ -310,11 +310,13 @@
   <meta property="og:site_name" content="Qing Chang" />
   <meta property="og:url" content="https://qingchang166.github.io/courses/ps2010/" />
   <meta property="og:title" content="PS 2010:  Foundations of Quantitative Methods | Qing Chang" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content="Fall 2022" /><meta property="og:image" content="https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
+      <meta property="article:published_time" content="2022-08-15T00:00:00&#43;00:00" />
     
+    <meta property="article:modified_time" content="2022-08-15T00:00:00&#43;00:00">
   
 
   
@@ -482,7 +484,7 @@
               
                 <a class="dropdown-item" href="/#working_paper"><span>Working Papers</span></a>
               
-                <a class="dropdown-item" href="/#dissertation"><span>Dissertation Project</span></a>
+                <a class="dropdown-item" href="/dissertation/"><span>Dissertation Project</span></a>
               
             </div>
           </li>
@@ -511,17 +513,10 @@
               
             
             
-              
-              
-              
-                
-              
-              
-            
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#courses"><span>Courses</span></a>
+            <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
           </li>
 
           
@@ -581,23 +576,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/software/"><span>Software</span></a>
-          </li>
-
-          
-          
-
-          
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Misc</span><span class="caret"></span>
-            </a>
-            <div class="dropdown-menu">
-              
-                <a class="dropdown-item" href="/data/"><span>Data</span></a>
-              
-                <a class="dropdown-item" href="/post/"><span>Posts</span></a>
-              
-            </div>
+            <a class="nav-link " href="/data/"><span>Data and Softwares</span></a>
           </li>
 
           
@@ -734,7 +713,43 @@
           <h1>PS 2010:  Foundations of Quantitative Methods</h1>
 
           <div class="article-style">
-            
+            <h1 id="course-description">Course Description</h1>
+<p>This course provides basic mathematical and statistical foundations for students to do more advanced formal theoretical and quantitative empirical research in political science. This class divides into three modules. The first module covers essential mathematical tools, such as calculus, optimization, and algebra. The second module introduces variety of statistical concept, probability theory, and logic of inference. The third module introduces potential outcome framework, ordinary least square, and maximum likelihood estimation, which put together all the knowledge learned from the first two modules.</p>
+<p>This course emphasizes both conceptualization and application of all the mathematical and statistical tools. Therefore, the first part of the class focuses on concept and in-class exercise, and the second part focuses on how to implement algorithms and make large-scale calculations in the R statistical software.</p>
+<h1 id="requirements">Requirements</h1>
+<h2 id="software">Software</h2>
+<p>Our main programming language for the purpose of this course will be the R programming language. Before our first meeting, you should install the following latest version software on your computer:</p>
+<ul>
+<li>R, you can download from <a href="https://www.r-project.org/" target="_blank" rel="noopener">here</a>.</li>
+<li>RStudio Desktop Free version, you can download from <a href="https://www.rstudio.com/products/rstudio/download/" target="_blank" rel="noopener">here</a>.</li>
+</ul>
+<h2 id="textbooks">Textbooks</h2>
+<p>There is no required textbook for this class. I will post all class handout to our course website. However, you may find the following textbooks useful for reviewing:</p>
+<ul>
+<li>Moore, Will H. and David A. Siegel. 2013. A Mathematics Course for Political &amp; Social Research. Princeton University Press.</li>
+<li>Wackerly, Dennis. William Mendenhall, and Richard Scheaffer. 2008. Mathematical Statistics with Applications, 7th edition. Brooks/Cole Cengage Learning.</li>
+<li>Wickham, H. and Grolemund, G., 2016. R for Data Science: import, tidy, transform, visualize, and model data. O&rsquo;Reilly.</li>
+</ul>
+<h1 id="tentative-course-outline">Tentative Course Outline</h1>
+<ul>
+<li>Week 1 08/29              Introduction</li>
+<li>Week 2 09/12              Derivatives</li>
+<li>Week 3 09/19              Integrals</li>
+<li>Week 4 09/26              Constrained Optimization</li>
+<li>Week 5 10/03              Intro to Probability</li>
+<li>Week 6 10/10              Random Variable</li>
+<li>Week 7 10/17              <strong>MIDTERM EXAM</strong></li>
+<li>Week 8 10/24              Estimation and Inference 1</li>
+<li>Week 9 10/31              Estimation and Inference 2</li>
+<li>Week 10 11/07             Matrix Algebra 1</li>
+<li>Week 11 11/14             Matrix Algebra 2</li>
+<li>Week 12 11/21             Causal Inference</li>
+<li>Week 13 11/28             OLS</li>
+<li>Week 14 12/05             MLE</li>
+<li>Week 15 12/12             <strong>FINAL EXAM</strong></li>
+</ul>
+<p>You can download the full syllabus <a href="syllabus/PS2010_Syllabus.pdf">here</a></p>
+
           </div>
 
           
@@ -750,10 +765,9 @@
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Previous</div>
-    <a href="/courses/ps0700/" rel="next">PS 0700: Research Method for Political Science</a>
+    <div class="meta-nav">Next</div>
+    <a href="/courses/ps0700/" rel="prev">PS 0700: Research Method for Political Science</a>
   </div>
-  
   
 </div>
 
@@ -762,7 +776,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 1, 0001</p>
+          <p>Last updated on Aug 15, 2022</p>
 
           
 
