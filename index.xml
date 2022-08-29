@@ -13,57 +13,6 @@
     </image>
     
     <item>
-      <title>PS 2010:  Foundations of Quantitative Methods</title>
-      <link>https://qingchang166.github.io/courses/ps2010/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/courses/ps2010/</guid>
-      <description>&lt;h1 id=&#34;course-description&#34;&gt;Course Description&lt;/h1&gt;
-&lt;p&gt;This course provides basic mathematical and statistical foundations for students to do more advanced formal theoretical and quantitative empirical research in political science. This class divides into three modules. The first module covers essential mathematical tools, such as calculus, optimization, and algebra. The second module introduces variety of statistical concept, probability theory, and logic of inference. The third module introduces potential outcome framework, ordinary least square, and maximum likelihood estimation, which put together all the knowledge learned from the first two modules.&lt;/p&gt;
-&lt;p&gt;This course emphasizes both conceptualization and application of all the mathematical and statistical tools. Therefore, the first part of the class focuses on concept and in-class exercise, and the second part focuses on how to implement algorithms and make large-scale calculations in the R statistical software.&lt;/p&gt;
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
-&lt;p&gt;Our main programming language for the purpose of this course will be the R programming language. Before our first meeting, you should install the following latest version software on your computer:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;R, you can download from &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;RStudio Desktop Free version, you can download from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h2&gt;
-&lt;p&gt;There is only one required textbook for this class, the rest of them listed below are optional. Meanwhile, I will post all class handout to our course website.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Required:&lt;/strong&gt; Moore, Will H. and David A. Siegel. 2013. A Mathematics Course for Political &amp;amp; Social Research. Princeton University Press.&lt;/li&gt;
-&lt;li&gt;Wackerly, Dennis. William Mendenhall, and Richard Scheaffer. 2008. Mathematical Statistics with Applications, 7th edition. Brooks/Cole Cengage Learning.&lt;/li&gt;
-&lt;li&gt;Wickham, H. and Grolemund, G., 2016. R for Data Science: import, tidy, transform, visualize, and model data. O&amp;rsquo;Reilly.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;tentative-course-outline&#34;&gt;Tentative Course Outline&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Week 1 08/29              Introduction&lt;/li&gt;
-&lt;li&gt;Week 2 09/12              Derivatives&lt;/li&gt;
-&lt;li&gt;Week 3 09/19              Integrals&lt;/li&gt;
-&lt;li&gt;Week 4 09/26              Intro to Probability&lt;/li&gt;
-&lt;li&gt;Week 5 10/03              Random Variable&lt;/li&gt;
-&lt;li&gt;Week 6 10/10              &lt;strong&gt;MIDTERM EXAM&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Week 7 10/17              Estimation and Inference 1&lt;/li&gt;
-&lt;li&gt;Week 8 10/24              Estimation and Inference 2&lt;/li&gt;
-&lt;li&gt;Week 9 10/31              Matrix Algebra 1&lt;/li&gt;
-&lt;li&gt;Week 10 11/07             Matrix Algebra 2&lt;/li&gt;
-&lt;li&gt;Week 11 11/14             Causal Inference&lt;/li&gt;
-&lt;li&gt;Week 12 11/21             OLS&lt;/li&gt;
-&lt;li&gt;Week 13 11/28             MLE&lt;/li&gt;
-&lt;li&gt;Week 14 12/05             &lt;strong&gt;FINAL EXAM&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can download the full syllabus &lt;a href=&#34;syllabus/PS2010_Syllabus.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PS 0700: Research Method for Political Science</title>
-      <link>https://qingchang166.github.io/courses/ps0700/</link>
-      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/courses/ps0700/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
       <link>https://qingchang166.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -323,6 +272,14 @@ $$&lt;/p&gt;
       <link>https://qingchang166.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>https://qingchang166.github.io/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/</guid>
       <description></description>
     </item>
     
