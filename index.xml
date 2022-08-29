@@ -13,6 +13,25 @@
     </image>
     
     <item>
+      <title>PS 0700: Research Method for Political Science</title>
+      <link>https://qingchang166.github.io/courses/ps0700/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps0700/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Week1</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week1/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week1/</guid>
+      <description>&lt;h2 id=&#34;introduction-and-foundations&#34;&gt;Introduction and Foundations&lt;/h2&gt;
+&lt;p&gt;You can download the Introduction from &lt;a href=&#34;week1/PS_2010_Week1_Introduction.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can download the Foundations from &lt;a href=&#34;week1/PS_2010_Week1_function.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://qingchang166.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -272,14 +291,6 @@ $$&lt;/p&gt;
       <link>https://qingchang166.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/admin/config.yml</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Courses</title>
-      <link>https://qingchang166.github.io/courses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/courses/</guid>
       <description></description>
     </item>
     
