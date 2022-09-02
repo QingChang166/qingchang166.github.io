@@ -17,9 +17,246 @@
       <link>https://qingchang166.github.io/courses/ps2010/week1/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/courses/ps2010/week1/</guid>
-      <description>&lt;h2 id=&#34;introduction-and-foundations&#34;&gt;Introduction and Foundations&lt;/h2&gt;
-&lt;p&gt;You can download the Introduction from &lt;a href=&#34;PS_2010_Week1_Introduction.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You can download the Foundations from &lt;a href=&#34;PS_2010_Week1_function.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week1_Introduction.pdf&#34;&gt;Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week1_function.pdf&#34;&gt;Foundations&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;recitation&#34;&gt;Recitation&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;Recitation1.Rmd&#34;&gt;Recitation1 RMarkdwon File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Recitation1.pdf&#34;&gt;Recitation1 PDF File&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PS 2010: Intro to R</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week1/recitation1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week1/recitation1/</guid>
+      <description>
+
+
+&lt;div id=&#34;topic-1-useful-r-commands&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Topic 1: Useful R commands&lt;/h1&gt;
+&lt;p&gt;The following commands are relevant for future tutorials.&lt;/p&gt;
+&lt;p&gt;Commands to create sequences and vectors:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;1:10 # Creates a sequence of integers&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  1  2  3  4  5  6  7  8  9 10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(1,10) # Does the same thing&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  1  2  3  4  5  6  7  8  9 10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(2,50,by=2) # Generate a sequence of number by increase the same amount&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  2  4  6  8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(1, 10, length.out = 5) # Generate a sequence by desired length&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  1.00  3.25  5.50  7.75 10.00&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;newvector&amp;lt;-c(1,23,7,10,11,5,45) # Creates a vector with 7 elements
+newvector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  1 23  7 10 11  5 45&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rep(1,500) # Creates a vector with the number 1 repeated 500 times&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##  [38] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##  [75] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [112] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [149] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [186] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [223] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [260] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [297] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [334] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [371] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [408] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [445] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+## [482] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fun&amp;lt;-c(&amp;quot;R&amp;quot;,&amp;quot;is&amp;quot;,&amp;quot;fun&amp;quot;) # Creates a vector with non-numerical entries
+fun&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;R&amp;quot;   &amp;quot;is&amp;quot;  &amp;quot;fun&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;paste(fun, collapse=&amp;quot; &amp;quot;) # Turns the above vector into a single element &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;R is fun&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Important basic built-in functions:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;abs(-10) # Returns the absolute value of a number&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sqrt(4) # Gives you the square root of a number&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;log(exp(1)) # Gives you the natural logarithm, here ln(e) was entered e = exp(1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;log(100, base=10) # Gives you the logarithm of 100 with base 10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;round(1.5) # Rounds the value to the next integer&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(newvector) # Gives you the sum of all elements of a vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 102&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;length(newvector) # Gives you the length (number of elements) of a vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 7&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mean(newvector) # Gives you the mean or average of a vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 14.57143&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(newvector)/length(newvector) # Does the same thing (formula behind the above command)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 14.57143&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;min(newvector) # Gives the minimum in a vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;max(newvector) # Gives the maximum in a vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 45&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(newvector) # Gives you more detailed summary statistics&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##    1.00    6.00   10.00   14.57   17.00   45.00&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sort(newvector) # Reorder the values in the vector &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  1  5  7 10 11 23 45&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sort(newvector, decreasing = T) # Reorder the values by descending&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 45 23 11 10  7  5  1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;which(newvector &amp;gt;= 3) # Tells you which entries of the vector meet the condition of being larger than or equal to 3 &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2 3 4 5 6 7&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you have a logical vector, it can have two types of entries, TRUE (T) and FALSE (F).&lt;/p&gt;
+&lt;p&gt;TRUE and FALSE are possible values when conditions are formulated, such as “if” conditions within functions or loops.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;logical &amp;lt;- c(T,F,T,F,F) # TRUE=T, FALSE=F
+!logical # Will reverse the vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE  TRUE FALSE  TRUE  TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3==4 # Double equal sign means testing whether two things are the same&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;&amp;quot;This&amp;quot; == &amp;quot;That&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3 &amp;lt; 4 # Less than &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3 &amp;lt;= 4 # Less than or equal to&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3 &amp;gt; 4 # Greater than &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3 &amp;gt;= 4 # Greater than or equal to&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;3 != 4 # Not equal to&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt;- c(1,2,3)
+
+2 %in% x # Testing whether a value is contained within a set&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you have a vector, you can exclude elements from it.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;a &amp;lt;- c(1,3,5,7,9)
+
+b &amp;lt;- a[-3] # This command excludes the third element from the vector
+
+b # Only 1, 2, 4, and 5 are left&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 3 7 9&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;c &amp;lt;- a[-which(a==3)] # This command excludes the element that equals to 3.
+
+c&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 5 7 9&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also exclude multiple elements from a vector with the following command.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;d &amp;lt;- a[-c(4,5)] # This command excludes the fourth and fifth element
+
+d # Only 1, 2, and 3 are left&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 3 5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Important: this command does not exclude values, it excludes items by their position!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;e &amp;lt;- c(11,15,9,2,34)
+
+e &amp;lt;- d[-c(1,2)]
+
+e # Only the last three items are left: 9, 2, and 34&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can access individual elements of a vector with the following commands:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;a[3] # Gives you the third element of the vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;logical[2] # Gives you the second element of the vector&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also combine two vectors to a matrix.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;matrix=rbind(a,logical) 
+# Rbind stands for &amp;quot;rowbind&amp;quot;, you bind two rows together, 
+#the alternative is &amp;quot;cbind&amp;quot;, meaning that you bind columns together
+
+matrix # The logical vector is turned numeric (1 for TRUE, 0 for FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##         [,1] [,2] [,3] [,4] [,5]
+## a          1    3    5    7    9
+## logical    1    0    1    0    0&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;matrix[2,3] # Gives you the element in the second row and third column&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## logical 
+##       1&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;draw-plot&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Draw Plot&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rnorm &amp;lt;- rnorm(10000,0,1) #Random draw 10000 data from a standard normal distribtuon. The first argument define how many draws you want, the second and third argument define the mean and variance of the normal distribution
+
+hist(rnorm, breaks=30, col = &amp;quot;orange&amp;quot;, main = &amp;quot;Normal Distribution&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(x=rnorm, y=dnorm(rnorm), xlab=&amp;quot;x value&amp;quot;, ylab=&amp;quot;Density&amp;quot;, main=&amp;quot;Normal Distribution&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-9-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;boxplot(rnorm, main=&amp;quot;Boxplot&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-9-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot-functions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Plot Functions&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# A linear function: y = 4*x +6
+
+x &amp;lt;- c(-10:10) # first, we set the domain&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;y &amp;lt;- 4*x +6 # then, we calculate the range
+
+
+plot(x, y, type = &amp;quot;l&amp;quot;, main = &amp;quot;This is function y = 4*x +6&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# A non-linear function: y = 15 - 2*x^2 
+
+x &amp;lt;- c(-2:5) 
+
+y &amp;lt;- 15 - 2*x^2  
+
+
+plot(x, y, type = &amp;quot;l&amp;quot;, main = &amp;quot;This is function y = 15 - 2*x^2&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## let&amp;#39;s improve the plot by increase the number of values in domain
+
+x &amp;lt;- seq(-2, 5, length.out = 30) 
+
+y &amp;lt;- 15 - 2*x^2  
+
+
+plot(x, y, type = &amp;quot;l&amp;quot;, main = &amp;quot;This is function y = 15 - 2*x^2&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-4.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# A exponential function: y = 2^x, and y = (1/2)^x
+
+x &amp;lt;- seq(-2, 2, length.out = 100)
+
+y1 &amp;lt;- 2^x
+
+y2 &amp;lt;- (1/2)^x
+
+
+{ # notice: we do not need this curly brackets in R script, but we need it here. 
+plot(x, y1, type = &amp;quot;l&amp;quot;, col= &amp;quot;red&amp;quot;)
+lines(x, y2, col=&amp;quot;green&amp;quot;)
+abline(v=c(0),lty=2)
+legend(&amp;#39;bottomright&amp;#39;,legend = c(&amp;quot;y = 2^x&amp;quot;,&amp;quot;y = (1/2)^x&amp;quot;),
+       lty=1,col=c(&amp;quot;red&amp;quot;,&amp;quot;green&amp;quot;),title=&amp;quot;Graph type&amp;quot;, cex=0.8)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-5.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# A logarithm function y = log(x), and y = log(x, base = 6)
+
+
+x &amp;lt;- seq(0, 3, length.out = 50)
+
+y1 &amp;lt;- log(x)
+
+y2 &amp;lt;- log(x, base = 6)
+
+
+{ # notice: we do not need this curly brackets in R script, but we need it here. 
+plot(x, y1, type = &amp;quot;l&amp;quot;, col= &amp;quot;red&amp;quot;)
+lines(x, y2, col=&amp;quot;green&amp;quot;)
+abline(h=c(0),lty=2)
+legend(&amp;#39;bottomright&amp;#39;,legend = c(&amp;quot;y = log(x)&amp;quot;,&amp;quot;y = log(x, base = 6)&amp;quot;),
+       lty=1,col=c(&amp;quot;red&amp;quot;,&amp;quot;green&amp;quot;),title=&amp;quot;Graph type&amp;quot;, cex=0.8)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-6.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# A discontinuous function: 
+
+x1 &amp;lt;- seq(0, 3, length.out = 50)
+
+x2 &amp;lt;- seq(3, 6, length.out = 50)
+
+y1 &amp;lt;- x1^3 - 3*x1 + 4
+
+y2 &amp;lt;- x2^2
+
+{ # notice: we do not need this curly brackets in R script, but we need it here. 
+plot(x1, y1, xlim = c(0,8), type = &amp;quot;l&amp;quot;, col= &amp;quot;red&amp;quot;)
+lines(x2, y2, col=&amp;quot;black&amp;quot;)
+abline(v=3, lty=2)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://qingchang166.github.io/courses/ps2010/week1/Recitation1_files/figure-html/unnamed-chunk-10-7.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
