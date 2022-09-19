@@ -5,7 +5,7 @@
     <link>https://qingchang166.github.io/</link>
       <atom:link href="https://qingchang166.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Qing Chang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Qing Chang</title>
@@ -44,6 +44,21 @@
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;PS2010_Homework1.pdf&#34;&gt;Homework Assignment 1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Due: Sep 19th, 9:29:59am&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week3</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week3/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week3/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS2010_Week3_Integral.pdf&#34;&gt;Integral&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;week3_R.pdf&#34;&gt;R: Visualization 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;train_data.zip&#34;&gt;Data for R session&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS2010_Homework2.pdf&#34;&gt;Homework Assignment 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Due: Sep 26th, 9:29:59am&lt;/p&gt;
 </description>
     </item>
     
