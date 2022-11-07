@@ -132,5 +132,19 @@
 </description>
     </item>
     
+    <item>
+      <title>Week10</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week10/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week10/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS2010_Week10_Matrix_Algebra_1.pdf&#34;&gt;Matrix Algebra 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Matrix_Operation.R&#34;&gt;Matrix Operation in R&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS2010_Homework6.pdf&#34;&gt;Homework Assignment 6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Due: Nov 14th, 9:29:59am&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
