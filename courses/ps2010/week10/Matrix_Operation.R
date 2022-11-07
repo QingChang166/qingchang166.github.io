@@ -28,3 +28,16 @@ print(inverse_A)
 # the determine of A
 
 det_A <- det(A)
+
+
+
+# Matrix opertation
+
+A + A
+
+A - A
+
+A %*% A
+
+
+
