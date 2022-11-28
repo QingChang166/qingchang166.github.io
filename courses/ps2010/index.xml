@@ -158,5 +158,18 @@
 </description>
     </item>
     
+    <item>
+      <title>Week12</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week12/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week12/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS2010_Week12_Application.pdf&#34;&gt;Empirical Application of OLS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;linear_regression_example.R&#34;&gt;Regression in R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;example_data.dta&#34;&gt;Example Data Stata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;example_data.txt&#34;&gt;Example Data Text&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
