@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Political Selection, Resource Allocation, and Long-term Economic Growth</title>
+      <link>https://qingchang166.github.io/working-paper/geo_selection/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/working-paper/geo_selection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Political institutions influence the allocation of resources and economic development. However, the state-of-the-art answer in the political economy literature is insufficiently clear on the links between micro political incentives, intermediate resource allocation, and macro economic growth. This paper develops a model to study the political incentives of resource misallocation and its consequences on long-term economic growth in a political promotion system. The model predicts that subnational leaders in such a system skew substantive resources to opportunistic development policies that contribute to short-term growth yet invest insufficiently in policies with future benefits due to career incentives and political competition. The critical consequence of this is low productivity in the long term. I test the predictions using regression discontinuity and difference-in-differences models based on prefecture-level data from China, and the results robustly show low growth potential for localities with high resource distortions. This paper builds the links between political institutions, resource allocations, and economic development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Land Price Distortion and Rural Inequality</title>
       <link>https://qingchang166.github.io/working-paper/inequality/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
@@ -31,21 +40,11 @@
     </item>
     
     <item>
-      <title>Information Asymmetry in Political Selection: Performance versus Patronage</title>
-      <link>https://qingchang166.github.io/working-paper/geo_selection/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/working-paper/geo_selection/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Information asymmetry is the core parameter in the principal agent model, but empirical studies tend to assume this by default and study its effect on outcomes of interest rather than measure information asymmetry explicitly. This paper develops a measure for information asymmetry and applies it to political selection in China to study how information asymmetry affects sub-national leaders&amp;rsquo; promotion. I find that performance and patronage do matter in political promotion, but their effects depend on the intensity of information asymmetry: the higher the information asymmetry, the higher the effect of performance and connection on political promotion. However, a more detailed study reveals that performance and connection contributes differently to promotion. Specifically, performance does not contribute to promotion when information asymmetry is not severe but begins to affect promotion when information asymmetry is increasingly severe. In contrast, connection increases promotion when information asymmetry is not severe but does not affect promotion at all when information asymmetry is severe. These findings challenge the theoretical arguments that 1) political selection in China is either a meritocratic or patronage system, and 2) patronage is a complement of formal contract (institutions) when there is a severe information asymmetry.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Good Friends versus Best Friends: How Different Types of Political Connection Work in China</title>
       <link>https://qingchang166.github.io/publication/political_connection/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/publication/political_connection/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

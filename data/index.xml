@@ -5,21 +5,12 @@
     <link>https://qingchang166.github.io/data/</link>
       <atom:link href="https://qingchang166.github.io/data/index.xml" rel="self" type="application/rss+xml" />
     <description>Data</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Data</title>
       <link>https://qingchang166.github.io/data/</link>
     </image>
-    
-    <item>
-      <title>Generalized Kernel Regularized Least Squares</title>
-      <link>https://qingchang166.github.io/data/gkrls/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/data/gkrls/</guid>
-      <description>&lt;p&gt;This package is developed and maintained mainly by &lt;a href=&#34;https://mgoplerud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Max Goplerud&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Gini Inequality 2000-2020</title>
