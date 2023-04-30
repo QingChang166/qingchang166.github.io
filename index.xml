@@ -5,20 +5,12 @@
     <link>https://qingchang166.github.io/</link>
       <atom:link href="https://qingchang166.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Qing Chang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://qingchang166.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Qing Chang</title>
       <link>https://qingchang166.github.io/</link>
     </image>
-    
-    <item>
-      <title>PS 0700: Research Method for Political Science</title>
-      <link>https://qingchang166.github.io/courses/ps0700/</link>
-      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/courses/ps0700/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Week1</title>
@@ -180,20 +172,29 @@
     </item>
     
     <item>
+      <title>Career Incentives, Economic Competition, and Public Land Prices</title>
+      <link>https://qingchang166.github.io/working-paper/develop_incentive/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/working-paper/develop_incentive/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Scholars have offered rich theoretical arguments on how institutions shape political incentives and determine economic outcomes. Yet providing supporting evidence has remained challenging. This paper studies two incentive mechanisms&amp;mdash;career incentives and economic competition. Different from the previous literature that assumes the two offer similar effects, I show that they are not equivalent by designing a theory of public land allocation&amp;mdash; a critical but understudied source of windfall revenues for local governments. I argue that career incentives motivate politicians to reduce land prices to improve their economic performance, whereas competition incentivizes them to increase land prices. I test my arguments using a regression discontinuity design on 2 million geo-located land transactions in China. Back-of-envelope calculation suggests that the total land price distortions due to the two incentives are 9 trillion RMB ($\approx$ 1.3$ trillion).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generalized Kernel Regularized Least Squares</title>
+      <link>https://qingchang166.github.io/publication/gkrls/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/publication/gkrls/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Land Price Distortion and Rural Inequality</title>
       <link>https://qingchang166.github.io/working-paper/inequality/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/working-paper/inequality/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Existing literature demonstrates that local governments intentionally reduce industrial land prices to attract investment while increasing residential land prices to boost government revenue. This “development on land” strategy promotes economic growth but comes with the cost of increasingly inequality in rural areas. This paper provides systematically empirical evidence of how local governments’ intervention in residential land prices worsens rural inequality. I construct a dataset on rural inequality using nightlight density from satellite imagery. This approach allows me to measure inequality based on geographical boundary. Combining this dataset with land price data extracted from government digital archives, I show how residential land price distortion contributes substantively to rural inequality.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Career Incentives, Inter-jurisdiction Competition, and Public Land Prices</title>
-      <link>https://qingchang166.github.io/working-paper/develop_incentive/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://qingchang166.github.io/working-paper/develop_incentive/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: How do political incentives influence the use of economic development incentives? This paper provides causal evidence on how politicians&amp;rsquo; career incentives and competition among neighborhood jurisdictions affect frequently used development incentives: industrial and residential land. Using geographic regression discontinuity design and a spatial regression on millions of land transaction data and thousands of local political leaders&amp;rsquo; career records, I find politicians&amp;rsquo; career incentive leads to a decrease in both the industrial and residential land price whereas inter-jurisdiction competition leads to a decrease in industrial and an increase in the residential land price. In contrast to the large literature that does not separate the effects of career incentives and inter-jurisdiction competition, this paper demonstrates the importance of differentiating these two effects on identifying the effects of political incentives on development incentives.&lt;/p&gt;
 </description>
     </item>
     
@@ -207,21 +208,11 @@
     </item>
     
     <item>
-      <title>How Selection of Auction Types Affects the Value of Political Connections: Evidence from China’s Land Market </title>
+      <title>Good Friends versus Best Friends: How Different Types of Political Connection Work in China</title>
       <link>https://qingchang166.github.io/publication/political_connection/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/publication/political_connection/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -248,7 +239,8 @@
       <link>https://qingchang166.github.io/data/gkrls/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://qingchang166.github.io/data/gkrls/</guid>
-      <description></description>
+      <description>&lt;p&gt;This package is developed and maintained mainly by &lt;a href=&#34;https://mgoplerud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Max Goplerud&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
