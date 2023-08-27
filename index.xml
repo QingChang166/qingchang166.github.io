@@ -13,6 +13,132 @@
     </image>
     
     <item>
+      <title>Syllabus</title>
+      <link>https://qingchang166.github.io/courses/ps2010/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/syllabus/</guid>
+      <description>&lt;h1 id=&#34;course-description&#34;&gt;Course Description&lt;/h1&gt;
+&lt;p&gt;This course provides basic mathematical and statistical foundations for students to do more advanced formal theoretical and quantitative empirical research in political
+science. Through hands-on exercises and real-world examples, students will learn the tools necessary to analyze and interpret political phenomena through empirical data analysis. This class divides into three modules. The first module covers essential mathematical tools, such as calculus, optimization, and algebra. The second module introduces various statistical concepts, probability theory, and logic of inference. The third module introduces linear regression, which combines all the knowledge learned from the first two modules.&lt;/p&gt;
+&lt;p&gt;Throughout this course, we will delve into both the theoretical foundations and practical application of statistics. This will involve exploring crucial theorems as well as acquiring the skills to analyze real-world data effectively.&lt;/p&gt;
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;p&gt;Our main programming language for the purpose of this course will be the R programming language. Before our first meeting, you should install the following latest version software on your computer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R, you can download from &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;RStudio Desktop Free version, you can download from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h2&gt;
+&lt;p&gt;There is only one required textbook for this class, the rest of them listed below are optional. Meanwhile, I will post all class handouts on our course website.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Required:&lt;/strong&gt; Moore, Will H. and David A. Siegel. 2013. A Mathematics Course for Political &amp;amp; Social Research. Princeton University Press.&lt;/li&gt;
+&lt;li&gt;Wackerly, Dennis. William Mendenhall, and Richard Scheaffer. 2008. Mathematical Statistics with Applications, 7th edition. Brooks/Cole Cengage Learning.&lt;/li&gt;
+&lt;li&gt;Wickham, H. and Grolemund, G., 2016. R for Data Science: import, tidy, transform, visualize, and model data. O&amp;rsquo;Reilly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;recitationoffice-hours&#34;&gt;Recitation/Office Hours&lt;/h1&gt;
+&lt;p&gt;In addition to regular office hours, I will schedule an hour &lt;strong&gt;TBD&lt;/strong&gt; where we can work through additional examples, practice problems, and provide appropriate hints for the homework. This additional class time is &lt;strong&gt;optional&lt;/strong&gt;, which means that your absence of the recitation will not be reflected in your participation grades. It can be very useful for you to attend, but you are in no way compelled to do so. If you need additional assistance, I am also available by appointment.&lt;/p&gt;
+&lt;h1 id=&#34;tentative-course-outline&#34;&gt;Tentative Course Outline&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week&lt;/font&gt;       &lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Date&lt;/font&gt;       &lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Topic&lt;/font&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week1&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;08/29&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Introduction&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week2&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;09/05&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Derivatives&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week3&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;09/12&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Integrals&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week4&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;09/19&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Intro to Probability&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week5&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;09/26&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Random Variable 1&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week6&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;10/03&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;&lt;strong&gt;MIDTERM EXAM&lt;/strong&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week7&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;10/10&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Random Variable 2&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week8&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;10/17&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Estimation and Inference 1&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week9&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;10/24&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Estimation and Inference 2&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week10&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;10/31&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Matrix Algebra 1&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week11&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;11/07&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Matrix Algebra 2&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week12&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;11/14&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt; OLS 1&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week13&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;11/21&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;&lt;strong&gt;Thanksgiving, No Class&lt;/strong&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week14&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;11/28&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;OLS 2&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;Week15&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;12/05&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;font size=&#34;4&#34;&gt;&lt;strong&gt;FINAL EXAM&lt;/strong&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You can download the full syllabus &lt;a href=&#34;syllabus/PS2010_Syllabus.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week1: Introduction</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week1/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week1_Introduction.pdf&#34;&gt;Introduction&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Career Incentives, Economic Competition, and Public Land Prices</title>
       <link>https://qingchang166.github.io/working-paper/develop_incentive/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>

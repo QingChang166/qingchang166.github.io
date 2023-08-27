@@ -1,0 +1,24 @@
+---
+title: "Week 1"
+execute:
+  echo: false
+---
+
+
+
+## PSYC 575 Multilevel Modeling {.unlisted .unnumbered}
+
+**Units:** 4\
+**Term--Day--Time:** Fall 2022--Tues & Thurs--10:00-11:50 am
+
+**Location:** THH B10
+
+**Instructor**: Hok Chio (Mark) Lai\
+**Office Hours:** Tues 12:00--1:00 pm, and by appointment.\
+**Contact Info:** (Email) [hokchiol\@usc.edu](mailto:hokchiol@usc.edu), (Slack) https://usc.enterprise.slack.com/.\
+Timeline for replying to emails: within 48 hours.
+
+**IT Help:** ITS, Blackboard\
+**Contact Info:**\
+ITS (Email, Monday -- Friday, 8:00 A.M. -- 6:00 P.M.) [consult\@usc.edu](mailto:consult@usc.edu), (Phone, 24/7/365) 213-740-5555, (Online) [ServiceNow Portal](https://itsusc.service-now.com/kb_view.do?sysparm_article=KB0010500)\
+Blackboard (Email, 24/7/365) [blackboard\@usc.edu](mailto:blackboard@usc.edu), (Online Help) [Blackboard Help for Students](https://studentblackboardhelp.usc.edu/)
