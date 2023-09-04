@@ -36,7 +36,7 @@ science. Through hands-on exercises and real-world examples, students will learn
 &lt;li&gt;Wickham, H. and Grolemund, G., 2016. R for Data Science: import, tidy, transform, visualize, and model data. O&amp;rsquo;Reilly.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;recitationoffice-hours&#34;&gt;Recitation/Office Hours&lt;/h1&gt;
-&lt;p&gt;In addition to regular office hours, I will schedule an hour &lt;strong&gt;TBD&lt;/strong&gt; where we can work through additional examples, practice problems, and provide appropriate hints for the homework. This additional class time is &lt;strong&gt;optional&lt;/strong&gt;, which means that your absence of the recitation will not be reflected in your participation grades. It can be very useful for you to attend, but you are in no way compelled to do so. If you need additional assistance, I am also available by appointment.&lt;/p&gt;
+&lt;p&gt;In addition to regular office hours, I will schedule an hour &lt;strong&gt;recitation&lt;/strong&gt; every Friday between 8:30-9:45 at Posvar 4801, where we can work through additional examples, practice problems, and provide appropriate hints for the homework. This additional class time is &lt;strong&gt;optional&lt;/strong&gt;, which means that your absence of the recitation will not be reflected in your participation grades. It can be very useful for you to attend, but you are in no way compelled to do so. If you need additional assistance, I am also available by appointment.&lt;/p&gt;
 &lt;h1 id=&#34;tentative-course-outline&#34;&gt;Tentative Course Outline&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -135,6 +135,18 @@ science. Through hands-on exercises and real-world examples, students will learn
       <guid>https://qingchang166.github.io/courses/ps2010/week1/</guid>
       <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;PS_2010_Week1_Introduction.pdf&#34;&gt;Introduction&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week2: Derivative</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week2/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week2_Derivative.pdf&#34;&gt;Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week2_Assignment.pdf&#34;&gt;Assignment&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
