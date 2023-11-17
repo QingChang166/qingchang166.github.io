@@ -263,6 +263,19 @@ science. Through hands-on exercises and real-world examples, students will learn
     </item>
     
     <item>
+      <title>Week13: OLS</title>
+      <link>https://qingchang166.github.io/courses/ps2010/week13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qingchang166.github.io/courses/ps2010/week13/</guid>
+      <description>&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;PS_2010_Week13_OLS.pdf&#34;&gt;Lecture Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;linear_regression_example.R&#34;&gt;Regression in R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;example_data.dta&#34;&gt;Example Data Stata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/10.1177/0010414003036005004&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Promotion Incentives, Political Competition, and Public Land Prices</title>
       <link>https://qingchang166.github.io/working-paper/develop_incentive/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
