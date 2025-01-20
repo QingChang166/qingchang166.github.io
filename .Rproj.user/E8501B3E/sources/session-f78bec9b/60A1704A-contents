@@ -1,0 +1,36 @@
+---
+title: "Published Article"
+listing: 
+  - id: published
+    contents: articles/published
+    sort: "date desc"
+    fields: [image, title]
+    type: default
+    categories: true
+    image-align: left
+  - id: working
+    contents: articles/working
+    sort: "date desc"
+    fields: [image, title, text]
+    type: default
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    image-align: left
+format: 
+  html: 
+    page-layout: full
+    css: asset/listing-default.css
+page-navigation: false
+title-block-banner: false
+---
+
+::: {#published}
+:::
+
+::: {style="text-align: center; margin-bottom: 3rem"}
+# Working Paper
+:::
+
+::: {#working}
+:::

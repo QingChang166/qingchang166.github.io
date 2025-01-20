@@ -1,0 +1,17 @@
+---
+title: "Political Selection, Resource Allocation, and Long-term Economic Growth"
+subtitle: "*Qing Chang. Working Paper*"
+author: 
+  - name: Qing Chang
+date: "2024-2-28"
+categories: [Political Economy, Working Paper]
+image: "featured.png"
+google-scholar: true
+css: ../../../asset/listing-article.css
+links:
+- icon: bi-archive-fill
+  name: PDF
+  url: political_selection_growth.pdf
+---
+
+**Abstract**:  Political institutions influence resource allocation and economic development. However, the connections between political incentives, resource allocation, and macroeconomic growth remain unclear in existing literature. This paper develops a model to explore resource misallocation within a political promotion system. It identifies two types of efficiency losses: "institutional failure," where principals' political incentives lead them to formulate policies that deviate from the optimal economic allocation, and "agency failure," where local leaders' optimal political resource allocations do not align with those of the principal. The model predicts an "amplifying effect," wherein institutional failure exacerbates agency failure, causing a greater deviation from the optimal economic allocation. By analyzing the career incentives of both prefecture and provincial leaders in China, this study confirms such an amplifying effect. This paper establishes the connections between political institutions, resource allocations, and economic development.

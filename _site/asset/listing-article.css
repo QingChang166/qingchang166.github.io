@@ -1,0 +1,42 @@
+/* title */
+
+h1.title, .title.h1 {
+    margin-top: 70px; 
+}
+
+h5, .h5 {
+    margin-top: 74px;
+}
+
+.btn-secondary {
+    --bs-btn-hover-color: red;
+}
+
+.quarto-categories {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.4em;
+}
+
+.quarto-categories .quarto-category a {
+    color: var(--bs-body-color);
+    font-size: 0.65em;
+    border: solid 1px red;
+    border-radius: .375rem;
+    opacity: .6;
+    padding: .25em .75em;
+}
+
+.quarto-categories .quarto-category a:hover {
+    color: red;
+}
+
+
+.page-columns .column-page {
+    grid-column: body-content-start;
+}
+
+.btn-outline-danger {
+  font-size: 0.75rem;
+}
+

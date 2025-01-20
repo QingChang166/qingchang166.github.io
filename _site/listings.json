@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/articles.html",
+    "items": [
+      "/articles/published/gKRLS/index.html",
+      "/articles/published/political_connection/index.html",
+      "/articles/working/develop_incentive/index.html",
+      "/articles/working/upward_mobility/index.html",
+      "/articles/working/geo_selection/index.html"
+    ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/articles/working/develop_incentive/index.html",
+      "/articles/working/upward_mobility/index.html",
+      "/projects/just_transition/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/conflict_forcast/index.html",
+      "/projects/just_transition/index.html"
+    ]
+  }
+]

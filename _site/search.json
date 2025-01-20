@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Published Article",
+    "section": "",
+    "text": "Generalized Kernel Regularized Least Squares\n\n\nChang, Qing, and Max Goplerud. Political Analysis 32.2 (2024): 157-171.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGood Friends versus Best Friends: How Different Types of Political Connection Work in China\n\n\nQing Chang. Journal of Political Institutions and Political Economy 4.2 (2023): 259-285.\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\n\nPromotion Incentives, Political Competition, and Public Land Prices\n\n\nQing Chang. Working Paper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpward Mobility of Frontline Fossil Fuel Workers\n\n\nQing Chang. Working Paper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolitical Selection, Resource Allocation, and Long-term Economic Growth\n\n\nQing Chang. Working Paper\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/ps2010/week8.html",
+    "href": "teaching/ps2010/week8.html",
+    "title": "Week8: Estimation and Inference 1",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week8.html#lecture-slides",
+    "href": "teaching/ps2010/week8.html#lecture-slides",
+    "title": "Week8: Estimation and Inference 1",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week8.html#assignment",
+    "href": "teaching/ps2010/week8.html#assignment",
+    "title": "Week8: Estimation and Inference 1",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 5\nAssignment 5 Answer"
+  },
+  {
+    "objectID": "teaching/ps2010/week2.html",
+    "href": "teaching/ps2010/week2.html",
+    "title": "Week2: Derivative",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week2.html#lecture-slides",
+    "href": "teaching/ps2010/week2.html#lecture-slides",
+    "title": "Week2: Derivative",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week2.html#assignment",
+    "href": "teaching/ps2010/week2.html#assignment",
+    "title": "Week2: Derivative",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 1\nAssignment 1 Solution"
+  },
+  {
+    "objectID": "teaching/ps2010/syllabus.html",
+    "href": "teaching/ps2010/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides basic mathematical and statistical foundations for students to do more advanced formal theoretical and quantitative empirical research in political science. Through hands-on exercises and real-world examples, students will learn the tools necessary to analyze and interpret political phenomena through empirical data analysis. This class divides into three modules. The first module covers essential mathematical tools, such as calculus, optimization, and algebra. The second module introduces various statistical concepts, probability theory, and logic of inference. The third module introduces linear regression, which combines all the knowledge learned from the first two modules.\nThroughout this course, we will delve into both the theoretical foundations and practical application of statistics. This will involve exploring crucial theorems as well as acquiring the skills to analyze real-world data effectively."
+  },
+  {
+    "objectID": "teaching/ps2010/syllabus.html#software",
+    "href": "teaching/ps2010/syllabus.html#software",
+    "title": "Syllabus",
+    "section": "Software",
+    "text": "Software\nOur main programming language for the purpose of this course will be the R programming language. Before our first meeting, you should install the following latest version software on your computer:\n\nR, you can download from here.\nRStudio Desktop Free version, you can download from here."
+  },
+  {
+    "objectID": "teaching/ps2010/syllabus.html#textbooks",
+    "href": "teaching/ps2010/syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\nThere is only one required textbook for this class, the rest of them listed below are optional. Meanwhile, I will post all class handouts on our course website.\n\nRequired: Moore, Will H. and David A. Siegel. 2013. A Mathematics Course for Political & Social Research. Princeton University Press.\nWackerly, Dennis. William Mendenhall, and Richard Scheaffer. 2008. Mathematical Statistics with Applications, 7th edition. Brooks/Cole Cengage Learning.\nWickham, H. and Grolemund, G., 2016. R for Data Science: import, tidy, transform, visualize, and model data. O’Reilly."
+  },
+  {
+    "objectID": "teaching/ps2010/week11.html",
+    "href": "teaching/ps2010/week11.html",
+    "title": "Week11: Hypothesis Testing",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week11.html#lecture-slides",
+    "href": "teaching/ps2010/week11.html#lecture-slides",
+    "title": "Week11: Hypothesis Testing",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week11.html#assignment",
+    "href": "teaching/ps2010/week11.html#assignment",
+    "title": "Week11: Hypothesis Testing",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 6"
+  },
+  {
+    "objectID": "teaching/ps2010/week3.html",
+    "href": "teaching/ps2010/week3.html",
+    "title": "Week3: Integrals",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week3.html#lecture-slides",
+    "href": "teaching/ps2010/week3.html#lecture-slides",
+    "title": "Week3: Integrals",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week3.html#assignment",
+    "href": "teaching/ps2010/week3.html#assignment",
+    "title": "Week3: Integrals",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 2"
+  },
+  {
+    "objectID": "teaching/ps2010/week4.html",
+    "href": "teaching/ps2010/week4.html",
+    "title": "Week4: Probability",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week4.html#lecture-slides",
+    "href": "teaching/ps2010/week4.html#lecture-slides",
+    "title": "Week4: Probability",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week4.html#assignment",
+    "href": "teaching/ps2010/week4.html#assignment",
+    "title": "Week4: Probability",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 3\nAssignment 3 Solution"
+  },
+  {
+    "objectID": "teaching/ps2010/week13.html",
+    "href": "teaching/ps2010/week13.html",
+    "title": "Week13: OLS",
+    "section": "",
+    "text": "Lecture Slides\nRegression in R\nExample Data Stata\nLink to the paper"
+  },
+  {
+    "objectID": "teaching/ps2010/week13.html#lecture-slides",
+    "href": "teaching/ps2010/week13.html#lecture-slides",
+    "title": "Week13: OLS",
+    "section": "",
+    "text": "Lecture Slides\nRegression in R\nExample Data Stata\nLink to the paper"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Qing Chang",
+    "section": "",
+    "text": "Thanks for visiting my website!\nI am a Postdoctoral Researcher at the University of Pittsburgh’s Graduate School of Public and International Affairs, affiliated with the Resileient Economic Lab and the Responsible Data Science, Complexity, and AI for Peace (ReDSCAIP) Lab. Recognizing the complex nature of social and political issues, my research leverages large-scale, unstructured real-world data and cutting-edge machine learning architectures to provide insights into political incentives and development outcomes, the labor impacts of energy transitions, and conflict forecasting. Additionally, I develop innovative statistical tools that integrate causal inference and machine learning to enhance the rigor of social science research.\nBefore coming to the University of Pittsburgh, I received my Master degree in Political Science from Duke University and also graduated with a Master degree in Economics from the North Carolina State University.\nYou can reach me via email: qic108@pitt.edu. You can download my CV."
+  },
+  {
+    "objectID": "about.html#my-expertise",
+    "href": "about.html#my-expertise",
+    "title": "Qing Chang",
+    "section": "My Expertise",
+    "text": "My Expertise\n\n\nSoftware\n  \n\nI leverage cutting-edge software to transform complex data into actionable insights. From advanced statistical analyses in R to high-performance computing with Arrow, my toolkit is designed for scalability and precision. Whether creating data pipelines or solving intricate computational problems, I use the right tools to deliver impactful results efficiently.\n\n\n\nSkills\n  \n\nWith expertise in tools like Shiny for interactive dashboards, sf for geospatial data analysis, and mlr for machine learning, I blend technical proficiency with creativity. My skillset bridges the gap between raw data and meaningful narratives, enabling me to tackle problems in spatial analytics, predictive modeling, and dynamic data visualization.\n\n\n\nTools\n \n\nEquipped with tools like Git for version control and Quarto for reproducible reports, I maintain a rigorous approach to collaboration and documentation. My workflow ensures transparency, reproducibility, and efficiency, empowering teams to focus on innovation while keeping everything well-organized and accessible."
+  },
+  {
+    "objectID": "about.html#recent-works",
+    "href": "about.html#recent-works",
+    "title": "Qing Chang",
+    "section": "Recent Works",
+    "text": "Recent Works\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\nPromotion Incentives, Political Competition, and Public Land Prices\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\nUpward Mobility of Frontline Fossil Fuel Workers\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nProject\n\n\n\n\n\n\n\n\n\n\nJust Transition and Labor Market Dynamic\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Conflict Prediction: an Interactive Map\n\n\n\nConflict Prediction\n\n\nShiny App\n\n\nInteractive Map\n\n\n\n\nJan 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJust Transition and Labor Market Dynamic\n\n\n\nLabor Market\n\n\nJust Transition\n\n\nUpward Mobility\n\n\n\n\nJan 16, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "articles/published/political_connection/index.html",
+    "href": "articles/published/political_connection/index.html",
+    "title": "Good Friends versus Best Friends: How Different Types of Political Connection Work in China",
+    "section": "",
+    "text": "Abstract: This paper differentiates four mechanisms that link firms’ political connections to economic rents and unpack channels through which firms obtain benefits from political ties. Using Chinese public listed firms’ land transaction data as well as a comprehensive dataset of their different types of connections, I differentiate how firms’: (1) reputation, (2) local political influence, (3) access to information, and (4) institutional embeddedness affect land prices and the ways in which firms purchase land. I find that firms with local political influence enjoy a 31% land price discount, the largest compared to other types of connections. More importantly, local connections enable firms to enter into auctions in which they can manipulate land prices before and during the auctions, while firms with good reputations benefit only from restricting potential competitors. My findings demonstrate that different types of political connections differ both in the magnitude of their impacts and the mechanisms by which they work."
+  },
+  {
+    "objectID": "projects/conflict_forcast/index.html",
+    "href": "projects/conflict_forcast/index.html",
+    "title": "Conflict Prediction: an Interactive Map",
+    "section": "",
+    "text": "Link to the interactive map"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Undergraduate Level\nFall 2020"
+  },
+  {
+    "objectID": "teaching.html#research-method-for-political-science",
+    "href": "teaching.html#research-method-for-political-science",
+    "title": "Teaching",
+    "section": "",
+    "text": "Undergraduate Level\nFall 2020"
+  },
+  {
+    "objectID": "teaching.html#foundations-of-quantitative-methods",
+    "href": "teaching.html#foundations-of-quantitative-methods",
+    "title": "Teaching",
+    "section": "Foundations of Quantitative Methods",
+    "text": "Foundations of Quantitative Methods\nPhD Level\nFall 2022,   Fall 2023"
+  },
+  {
+    "objectID": "projects/just_transition/index.html",
+    "href": "projects/just_transition/index.html",
+    "title": "Just Transition and Labor Market Dynamic",
+    "section": "",
+    "text": "This project examines the labor market impacts of the green transition in the United States, focusing on how transitioning to sustainable energy affects employment and workforce dynamics. Additionally, it explores the potential to adapt and apply the concept of a “Just Transition”—ensuring equitable and inclusive shifts in employment opportunities—to the context of China. The project seeks to provide insights into creating sustainable pathways for workers impacted by the shift from fossil fuels to renewable energy, addressing economic and social challenges on a large scale."
+  },
+  {
+    "objectID": "projects/just_transition/index.html#goal",
+    "href": "projects/just_transition/index.html#goal",
+    "title": "Just Transition and Labor Market Dynamic",
+    "section": "",
+    "text": "This project examines the labor market impacts of the green transition in the United States, focusing on how transitioning to sustainable energy affects employment and workforce dynamics. Additionally, it explores the potential to adapt and apply the concept of a “Just Transition”—ensuring equitable and inclusive shifts in employment opportunities—to the context of China. The project seeks to provide insights into creating sustainable pathways for workers impacted by the shift from fossil fuels to renewable energy, addressing economic and social challenges on a large scale."
+  },
+  {
+    "objectID": "projects/just_transition/index.html#related-works",
+    "href": "projects/just_transition/index.html#related-works",
+    "title": "Just Transition and Labor Market Dynamic",
+    "section": "Related Works",
+    "text": "Related Works\nUpward Mobility of Frontline Fossil Fuel Workers"
+  },
+  {
+    "objectID": "articles/working/develop_incentive/index.html",
+    "href": "articles/working/develop_incentive/index.html",
+    "title": "Promotion Incentives, Political Competition, and Public Land Prices",
+    "section": "",
+    "text": "Abstract: Existing theory posits that institutionalized promotion within party systems fosters credible power-sharing in authoritarian regimes, bolstering regime stability and performance. This paper, however, presents evidence indicating that such institutionalization increases protests and reduces regime stability. I argue that the career incentives of politicians within party systems incentivize violations of non-elite property rights, generating distributional injustice and escalating conflicts between governments and citizens. Utilizing data from 600,000 residential land transactions, surveys, and protest records from China, I demonstrate that: 1) local party secretaries with high career incentives tend to manipulate land prices, 2) career-seeking politicians contribute to heightened collective action on land issues, with land price intervention serving as the channel through which career incentives impact collective actions, and 3) distributional injustice is the mechanism drives conflicts between citizens and governments. These findings challenge the notion that institutionalized promotion of party cadres in authoritarian regimes enhances regime stability."
+  },
+  {
+    "objectID": "articles/working/geo_selection/index.html",
+    "href": "articles/working/geo_selection/index.html",
+    "title": "Political Selection, Resource Allocation, and Long-term Economic Growth",
+    "section": "",
+    "text": "Abstract: Political institutions influence resource allocation and economic development. However, the connections between political incentives, resource allocation, and macroeconomic growth remain unclear in existing literature. This paper develops a model to explore resource misallocation within a political promotion system. It identifies two types of efficiency losses: “institutional failure,” where principals’ political incentives lead them to formulate policies that deviate from the optimal economic allocation, and “agency failure,” where local leaders’ optimal political resource allocations do not align with those of the principal. The model predicts an “amplifying effect,” wherein institutional failure exacerbates agency failure, causing a greater deviation from the optimal economic allocation. By analyzing the career incentives of both prefecture and provincial leaders in China, this study confirms such an amplifying effect. This paper establishes the connections between political institutions, resource allocations, and economic development."
+  },
+  {
+    "objectID": "articles/published/gKRLS/index.html",
+    "href": "articles/published/gKRLS/index.html",
+    "title": "Generalized Kernel Regularized Least Squares",
+    "section": "",
+    "text": "Abstract: Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables. However, its usefulness to many researchers is limited for two reasons. First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically-motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes. Second, estimation is extremely computationally intensive for even modestly sized datasets. Our paper addresses both concerns by introducing generalized KRLS (gKRLS). We note that KRLS can be re-formulated as a hierarchical model thereby allowing easy inference and modular model construction where KRLS can be used alongside random effects, splines, and unregularized fixed effects. Computationally, we also implement random sketching to dramatically accelerate estimation while incurring a limited penalty in estimation quality. We demonstrate that gKRLS can be fit on datasets with tens of thousands of observations in under one minute. Further, state-of-the-art techniques that require fitting the model over a dozen times (e.g. meta-learners) can be estimated quickly."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Qing Chang, PhD",
+    "section": "",
+    "text": "Qing Chang, PhD\n         University of Pittsburgh\n       \n    \n   \n  I'm a  applying cutting-edge  techniques on  to address critical questions in"
+  },
+  {
+    "objectID": "teaching/ps2010/week5.html",
+    "href": "teaching/ps2010/week5.html",
+    "title": "Week5: Random Variable 1",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week5.html#lecture-slides",
+    "href": "teaching/ps2010/week5.html#lecture-slides",
+    "title": "Week5: Random Variable 1",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week1.html",
+    "href": "teaching/ps2010/week1.html",
+    "title": "Week1: Introduction",
+    "section": "",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "teaching/ps2010/week1.html#lecture-slides",
+    "href": "teaching/ps2010/week1.html#lecture-slides",
+    "title": "Week1: Introduction",
+    "section": "",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "teaching/ps2010/week12.html",
+    "href": "teaching/ps2010/week12.html",
+    "title": "Week12: Matrix and OLS",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week12.html#lecture-slides",
+    "href": "teaching/ps2010/week12.html#lecture-slides",
+    "title": "Week12: Matrix and OLS",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week7.html",
+    "href": "teaching/ps2010/week7.html",
+    "title": "Week7: Random Variable 2",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week7.html#lecture-slides",
+    "href": "teaching/ps2010/week7.html#lecture-slides",
+    "title": "Week7: Random Variable 2",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week7.html#assignment",
+    "href": "teaching/ps2010/week7.html#assignment",
+    "title": "Week7: Random Variable 2",
+    "section": "Assignment",
+    "text": "Assignment\nAssignment 4\nAnswer"
+  },
+  {
+    "objectID": "teaching/ps2010/week10.html",
+    "href": "teaching/ps2010/week10.html",
+    "title": "Week10: Estimation Inference 2",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week10.html#lecture-slides",
+    "href": "teaching/ps2010/week10.html#lecture-slides",
+    "title": "Week10: Estimation Inference 2",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week9.html",
+    "href": "teaching/ps2010/week9.html",
+    "title": "Week9: Lab",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "teaching/ps2010/week9.html#lecture-slides",
+    "href": "teaching/ps2010/week9.html#lecture-slides",
+    "title": "Week9: Lab",
+    "section": "",
+    "text": "Lecture Slides"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "Thank you for visiting my website! My webiste is released under a Creative Commons Attribution-ShareAlike 4.0 International License. If you are interested in creating a similar website, you are welcome to use the code hosted on GitHub. However! I kindly request that you DO NOT COPY THIS WEBSITE without making meaningful modifications. This website was inspired by many others. Special thanks to: Silvia Canelón, Jadey Ryan, and Gang He."
+  }
+]

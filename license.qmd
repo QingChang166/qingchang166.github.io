@@ -1,0 +1,13 @@
+---
+title: "License"
+format: 
+  html: 
+    page-layout: full
+    css: asset/listing-default.css
+---
+
+Thank you for visiting my website!
+My webiste is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+If you are interested in creating a similar website, you are welcome to use the code hosted on [GitHub](https://github.com/QingChang166).
+**However!** I kindly request that you [DO NOT COPY THIS WEBSITE]{style="color:red"} without making meaningful modifications. This website was inspired by many others.
+Special thanks to: [Silvia Canelón](https://silviacanelon.com/), [Jadey Ryan](https://jadeyryan.com/), and [Gang He](https://drganghe.github.io/).

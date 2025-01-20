@@ -1,0 +1,32 @@
+---
+title: "Generalized Kernel Regularized Least Squares"
+subtitle: "*Chang, Qing, and Max Goplerud. Political Analysis 32.2 (2024): 157-171.*"
+author: 
+  - name: Qing Chang
+  - name: Max Goplerud
+date: "2024-4-28"
+categories: [Method]
+image: "featured.png"
+google-scholar: true
+css: ../../../asset/listing-article.css
+links:
+- icon: file-richtext-fill
+  name: Published Version
+  url: https://www.cambridge.org/core/journals/political-analysis/article/generalized-kernel-regularized-least-squares/09F9B1E299E26A452FCF256129F450E7
+- icon: bi-file-earmark-zip-fill
+  name: Package on CRAN
+  url: https://cran.r-project.org/web/packages/gKRLS/index.html
+- icon: bi-archive-fill
+  name: Arxiv
+  url: https://arxiv.org/abs/2209.14355
+---
+
+**Abstract**: Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables.
+However, its usefulness to many researchers is limited for two reasons.
+First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically-motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes.
+Second, estimation is extremely computationally intensive for even modestly sized datasets.
+Our paper addresses both concerns by introducing generalized KRLS (*gKRLS*).
+We note that KRLS can be re-formulated as a hierarchical model thereby allowing easy inference and modular model construction where KRLS can be used alongside random effects, splines, and unregularized fixed effects.
+Computationally, we also implement random sketching to dramatically accelerate estimation while incurring a limited penalty in estimation quality.
+We demonstrate that *gKRLS* can be fit on datasets with tens of thousands of observations in under one minute.
+Further, state-of-the-art techniques that require fitting the model over a dozen times (e.g. meta-learners) can be estimated quickly.

@@ -1,0 +1,61 @@
+"#000"
+
+"#000"
+
+"#c0041c"
+
+"#212529"
+<div class="title-block-content">
+  <img
+src="./logo.png"
+alt="logo of company"
+width="200px"
+height="200px"
+style="margin-bottom: 20px"
+/>
+  
+  author: "I'm a <span style='color:#2a9fd6'>***computational social scientist***</span> dedicated to leveraging <span style='color:#2a9fd6'>***big data***</span> and cutting-edge <span style='color:#2a9fd6'>***machine learning***</span> techniques to tackle critical questions in <span style='color:#2a9fd6'>***political economy***</span>.
+<br>
+"
+
+
+
+<p justify-content = "space-evenly" style="color:white; margin-left: 150px; margin-right: 150px">
+  I'm a <span style="color:#2a9fd6;"><strong><em>computational social scientist</em></strong></span> dedicated to leveraging 
+        <span style="color:#2a9fd6;"><strong><em>big data</em></strong></span> and cutting-edge 
+        <span style="color:#2a9fd6;"><strong><em>machine learning</em></strong></span> techniques to tackle critical questions in 
+        <span style="color:#2a9fd6;"><strong><em>political economy</em></strong></span>.
+         <a class="code-links" href="/about.qmd" target="_blank">Learn more about me &rarr;</a>
+    </p>
+    
+    
+    
+    
+    
+
+
+#typewriter-container {
+  max-width: 500px; /* Adjust the width to fit your website's layout */
+  margin: 0 auto;   /* Center the text within the page */
+  line-height: 1.6;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+#typewriter {
+font-family: 'DM Sans';
+font-size: 20px;
+font-style: italic;
+font-weight: bold;;
+color: #49c5b6;
+  white-space: normal; /* Allow the text to wrap within the container */
+  overflow: hidden;
+border-right: 2px solid transparent;
+animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

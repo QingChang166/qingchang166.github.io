@@ -1,0 +1,10 @@
+---
+title: "Qing Chang, PhD"
+subtitle: "University of Pittsburgh"
+format: 
+  html:
+    template-partials: 
+      - title-block.html
+toc: false
+title-block-banner: true
+---

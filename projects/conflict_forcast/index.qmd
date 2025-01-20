@@ -1,0 +1,20 @@
+---
+title: 'Conflict Prediction: an Interactive Map'
+date: 2025-01-17
+date-modified: today
+author:
+  - name: Qing Chang
+  - name: Michael Colaresi
+  - name: ReDSCAIP Lab
+slug: ccd-sips
+image: featured.png
+categories:
+  - Conflict Prediction
+  - Shiny App
+  - Interactive Map
+css: ../../../asset/listing-article.css
+---
+
+
+
+[Link to the interactive map](https://r4lbce-qing-chang.shinyapps.io/demo/)

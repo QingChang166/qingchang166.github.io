@@ -1,0 +1,13 @@
+.thumbnail-image card-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  padding: 15px;
+  background-color: #f5f5f5; /* Optional: Add background color */
+  border: 1px solid #ddd; /* Optional: Add border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}

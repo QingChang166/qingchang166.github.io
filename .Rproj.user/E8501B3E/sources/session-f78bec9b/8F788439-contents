@@ -1,0 +1,74 @@
+
+
+library(raster)
+library(tidyterra)
+
+hill <- raster("/Volumes/Extreme_SSD/Land_inequlity_project/dataverse_files/DEM_QGIS-2/chgis_hillshade.tif")
+
+pal_greys <- hcl.colors(1000, "Grays")
+
+hill <- terra::rast(hill)
+
+crs(hill)
+crs(hill) <- c("EPSG:2333")
+cat_raster_wgs84 = terra::project(hill, "EPSG:4326", method = "near")
+
+names(cat_raster_wgs84) <- "alt"
+
+# We don't want values lower than 0
+cat_raster_wgs84 <-cat_raster_wgs84%>%
+  mutate(alt = pmax(0, alt))
+
+
+
+city_map <- st_read("/Volumes/Extreme_SSD/Land_inequlity_project/2021行政区划/市.shp")
+
+
+city_use <- city_map %>% filter(市!="三沙市" &市!="汕尾市" , 省!="台湾省") %>%
+  select(-c(省类型,市类型)) %>% rename(province_shp = 省, provid_shp = 省代码,
+                                 city_shp = 市, cityid_shp = 市代码) 
+
+origin(city_use) <- c(0,0)
+origin(pop) <- c(0,0)
+
+hill_cropped = crop(cat_raster_wgs84, city_use)
+srtm_final = mask(hill_cropped, city_use)
+
+library(ggnewscale)
+
+pal <- hcl.colors(4, "Inferno", rev = T)
+
+ggplot() +
+  geom_spatraster(data = srtm_final) +
+  scale_fill_gradientn(colors = pal_greys, 
+                       na.value = NA,
+                       guide="none")+
+  new_scale_fill() +
+  geom_sf(data =hex_data,
+          aes(fill = interval), color =NA)+
+  scale_fill_manual(values = pal,
+                    drop = FALSE,
+                    na.value = "grey80",
+                    # Legend
+                    guide = guide_legend(title="Quantile",
+                                         direction = "horizontal",
+                                         nrow = 1,
+                                         label.position = "bottom"))+
+  theme_void() +
+  ggtitle("2019") +
+  theme(
+    plot.title = element_text(hjust = 0.5, color = "white"),
+    legend.text = element_text(color = "white"),
+    legend.title = element_text(color = "white"),
+    legend.position = "bottom")
+
+
+
+
+,
+plot.background = element_rect(fill = "#282828")
+
+
+
+
+

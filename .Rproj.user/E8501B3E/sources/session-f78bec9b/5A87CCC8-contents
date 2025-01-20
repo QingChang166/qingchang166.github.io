@@ -1,0 +1,114 @@
+---
+title: "Qing Chang"
+page-layout: full
+image: logo.png
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 100%
+listing: 
+- id: publication_1
+  contents: 
+    - "../articles/working/develop_incentive/index.qmd"
+    - "../articles/working/upward_mobility/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-placeholder: ../publication/featured.jpg
+- id: publication_2
+  contents: 
+    - "../articles/working/upward_mobility/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+- id: project
+  contents: 
+    - "../project/*/index.qmd"
+    - "../project/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+format: 
+  html: 
+    page-layout: full
+---
+
+::: {#hero-heading}
+Thanks for visiting my website!
+
+I am a Postdoctoral Researcher at the University of Pittsburgh’s Graduate School of Public and International Affairs, affiliated with [the Resileient Economic Lab](https://sites.pitt.edu/~mrfrank/resilientEconomy.html) and the [Responsible Data Science, Complexity, and AI for Peace (ReDSCAIP) Lab](https://michaelcolaresi.com/redscaip). Recognizing the complex nature of social and political issues, my research leverages large-scale, unstructured real-world data and cutting-edge machine learning architectures to provide insights into [political incentives and development outcomes](articles.qmd), the [labor impacts of energy transitions](articles.qmd), and conflict forecasting. Additionally, I develop innovative statistical tools that integrate causal inference and machine learning to enhance the rigor of social science research.
+
+Before coming to the University of Pittsburgh, I received my Master degree in Political Science from Duke University and also graduated with a Master degree in Economics from the North Carolina State University.
+
+You can reach me via email: qic108\@pitt.edu.
+You can download my [CV](Qing_Chang_CV.pdf).
+:::
+
+<br> <br> 
+
+## My Expertise
+
+::: {style="display: flex; justify-content: space-around; text-align: center; font-size: 15px; gap: 20px"}
+### Software
+
+![R](https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg){width="50px"} ![QGIS](https://upload.wikimedia.org/wikipedia/commons/3/3e/QGIS_logo_minimal.svg){width="50px"} ![spark](https://raw.githubusercontent.com/apache/arrow/refs/heads/main/r/pkgdown/favicon/apple-touch-icon-180x180.png){width="50px"}
+
+::: {style="display: flex; text-align: justify; font-size: 15px; margin-top: 1.5rem"}
+I leverage cutting-edge software to transform complex data into actionable insights. From advanced statistical analyses in R to high-performance computing with Arrow, my toolkit is designed for scalability and precision. Whether creating data pipelines or solving intricate computational problems, I use the right tools to deliver impactful results efficiently.
+:::
+
+### Skills
+
+![mlr](https://raw.githubusercontent.com/mlr-org/mlr3/refs/heads/main/man/figures/logo.png){width="50px"} ![sf](https://raw.githubusercontent.com/r-spatial/sf/refs/heads/main/pkgdown/favicon/apple-touch-icon-180x180.png){width="50px"} ![shiny](https://upload.wikimedia.org/wikipedia/commons/b/bf/Shiny_hex_logo.svg){width="50px"}
+
+::: {style="display: flex; text-align: justify; font-size: 15px;"}
+With expertise in tools like Shiny for interactive dashboards, sf for geospatial data analysis, and mlr for machine learning, I blend technical proficiency with creativity. My skillset bridges the gap between raw data and meaningful narratives, enabling me to tackle problems in spatial analytics, predictive modeling, and dynamic data visualization.
+:::
+
+### Tools
+
+![Git](https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg){width="95px"} ![Gulp](https://raw.githubusercontent.com/quarto-dev/quarto-cli/refs/heads/main/tests/docs/reveal/images/quarto.png){width="95px"}
+
+::: {style="display: flex; text-align: justify; font-size: 15px; margin-top: 2rem"}
+Equipped with tools like Git for version control and Quarto for reproducible reports, I maintain a rigorous approach to collaboration and documentation. My workflow ensures transparency, reproducibility, and efficiency, empowering teams to focus on innovation while keeping everything well-organized and accessible.
+:::
+
+:::
+
+
+## Recent Works
+
+:::: {.grid}
+
+
+::: {.g-col-3}
+### Working Paper
+::: {#publication_1}
+:::
+:::
+
+::: {.g-col-3}
+### Working Paper
+::: {#publication_2}
+:::
+[See all &rarr;](../articles.html){.see-all}
+:::
+
+::::
+
