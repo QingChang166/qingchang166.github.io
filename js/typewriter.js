@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { id: "word1", content: "computational social scientist" },
     { id: "word2", content: "statistical learning" },
     { id: "word3", content: "large-scale data" },
-    { id: "word4", content: "political economy." },
+    { id: "word4", content: "political economy of development." },
     { type: "link", content: "Learn more about me →", href: "/about.html" } // Add clickable link
   ]; // Words for typewriter effect
 
