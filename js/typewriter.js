@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { type: "link", content: "Learn more about me →", href: "/about.html" } // Add clickable link
   ]; // Words for typewriter effect
 
-  const speed = 100; // Typing speed in milliseconds
+  const speed = 50; // Typing speed in milliseconds
   let currentWordIndex = 0;
   let currentCharIndex = 0;
 
