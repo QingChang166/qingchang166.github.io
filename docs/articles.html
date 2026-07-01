@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Published Article – Qing Chang</title>
+<title>Research – Qing Chang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,14 +24,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b45aa5c15dd51cdea01247e9f4e2a460.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b9d54017ded6591775ba0a164cbc928e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,93 +65,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-published .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-published'] = new List('listing-published', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-working .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-text',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-working'] = new List('listing-working', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="asset/listing-default.css">
@@ -178,38 +89,34 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Qing_Chang_CV.pdf"> <i class="bi bi-paperclip" role="img">
+    <a class="nav-link active" href="./articles.html" aria-current="page"> <i class="bi bi-journal-text" role="img">
+</i> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> <i class="bi bi-terminal" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> <i class="bi bi-mortarboard" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Qing_Chang_CV.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-earmark-text-fill" role="img">
-</i> 
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./articles.html"><i class="bi bi-file-earmark" role="img">
-</i> 
- <span class="dropdown-text">Article</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html"><i class="bi bi-terminal" role="img">
-</i> 
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> <i class="bi bi-mortarboard-fill" role="img">
+    <a class="nav-link" href="./contact.html"> <i class="bi bi-envelope" role="img">
 </i> 
-<span class="menu-text">Teaching</span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -219,7 +126,12 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img" aria-label="X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:qic108@pitt.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -234,19 +146,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TGFib3IlMjBNYXJrZXQ=">Labor Market <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWV0aG9k">Method <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9saXRpY2FsJTIwRWNvbm9teQ==">Political Economy <span class="quarto-category-count">(4)</span></div><div class="category" data-category="V29ya2luZyUyMFBhcGVy">Working Paper <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Published Article</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -258,119 +169,159 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-published" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="TWV0aG9k" data-listing-date-sort="1714276800000" data-listing-file-modified-sort="1736294084263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<div class="thumbnail">
-<p><a href="./articles/published/gKRLS/index.html" class="no-external"></a></p><a href="./articles/published/gKRLS/index.html" class="no-external">
-<p><img loading="lazy" src="./articles/published/gKRLS/featured.png" class="thumbnail-image"></p>
-</a><p><a href="./articles/published/gKRLS/index.html" class="no-external"></a></p>
+<div class="listing-page">
+<section id="published-articles" class="level2">
+<h2 class="anchored" data-anchor-id="published-articles">Published articles</h2>
+<div class="paper-list">
+<div class="paper-entry">
+<section id="generalized-kernel-regularized-least-squares" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="generalized-kernel-regularized-least-squares">Generalized Kernel Regularized Least Squares</h3>
+<p class="paper-authors">
+<strong class="author-me">Chang, Qing</strong>, and Max Goplerud. <em>Political Analysis</em> 32.2 (2024): 157-171.
+</p>
+<div class="paper-links">
+<p><a href="articles/published/gKRLS/">Paper page</a> <a href="https://www.cambridge.org/core/journals/political-analysis/article/generalized-kernel-regularized-least-squares/09F9B1E299E26A452FCF256129F450E7">Published Version</a> <a href="https://cran.r-project.org/web/packages/gKRLS/index.html">Package on CRAN</a> <a href="https://arxiv.org/abs/2209.14355">Arxiv</a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./articles/published/gKRLS/index.html" class="no-external">Generalized Kernel Regularized Least Squares</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./articles/published/gKRLS/index.html" class="no-external"><em>Chang, Qing, and Max Goplerud. Political Analysis 32.2 (2024): 157-171.</em></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./articles/published/gKRLS/index.html" class="no-external"></a></p><a href="./articles/published/gKRLS/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="UG9saXRpY2FsJTIwRWNvbm9teQ==" data-listing-date-sort="1709096400000" data-listing-file-modified-sort="1737312642032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
-<div class="thumbnail">
-<p><a href="./articles/published/political_connection/index.html" class="no-external"></a></p><a href="./articles/published/political_connection/index.html" class="no-external">
-<p><img loading="lazy" src="./articles/published/political_connection/featured.png" class="thumbnail-image"></p>
-</a><p><a href="./articles/published/political_connection/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./articles/published/political_connection/index.html" class="no-external">Good Friends versus Best Friends: How Different Types of Political Connection Work in China</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./articles/published/political_connection/index.html" class="no-external"><em>Qing Chang. Journal of Political Institutions and Political Economy 4.2 (2023): 259-285.</em></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./articles/published/political_connection/index.html" class="no-external"></a></p><a href="./articles/published/political_connection/index.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="working-paper" class="level1" style="text-align: center; margin-bottom: 3rem">
-<h1>Working Paper</h1>
 </section>
-<div id="listing-working" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="UG9saXRpY2FsJTIwRWNvbm9teSUyQ1dvcmtpbmclMjBQYXBlcg==" data-listing-date-sort="1738040400000" data-listing-file-modified-sort="1736297025133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
-<div class="thumbnail">
-<p><a href="./articles/working/develop_incentive/index.html" class="no-external"></a></p><a href="./articles/working/develop_incentive/index.html" class="no-external">
-<p><img loading="lazy" src="./articles/working/develop_incentive/featured.png" class="thumbnail-image"></p>
-</a><p><a href="./articles/working/develop_incentive/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./articles/working/develop_incentive/index.html" class="no-external">Promotion Incentives, Political Competition, and Public Land Prices</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./articles/working/develop_incentive/index.html" class="no-external"><em>Qing Chang. Working Paper</em></a>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/published/gKRLS/featured.png" data-lightbox-alt="gKRLS article figure" aria-label="Expand figure for Generalized Kernel Regularized Least Squares">
+<img src="articles/published/gKRLS/featured.png" alt="">
+</button>
 </div>
 </div>
-<div class="metadata">
-<p><a href="./articles/working/develop_incentive/index.html" class="no-external"></a></p><a href="./articles/working/develop_incentive/index.html" class="no-external">
-</a>
+<div class="paper-entry">
+<section id="good-friends-versus-best-friends-how-different-types-of-political-connection-work-in-china" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="good-friends-versus-best-friends-how-different-types-of-political-connection-work-in-china">Good Friends versus Best Friends: How Different Types of Political Connection Work in China</h3>
+<p class="paper-authors">
+<strong class="author-me">Qing Chang</strong>. <em>Journal of Political Institutions and Political Economy</em> 4.2 (2023): 259-285.
+</p>
+<div class="paper-links">
+<p><a href="articles/published/political_connection/">Paper page</a> <a href="https://www.nowpublishers.com/article/Details/PIP-0078">Published Version</a> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UG0LGE">Code</a> <a href="https://www.dropbox.com/scl/fi/sf236fcuov62j19f8648v/JPIPE_Final.pdf?rlkey=jtyerweq2mbdasjorggbuzvtk&amp;e=1&amp;dl=0">Open Access</a></p>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="UG9saXRpY2FsJTIwRWNvbm9teSUyQ0xhYm9yJTIwTWFya2V0JTJDV29ya2luZyUyMFBhcGVy" data-listing-date-sort="1737867600000" data-listing-file-modified-sort="1737390739906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./articles/working/upward_mobility/index.html" class="no-external"></a></p><a href="./articles/working/upward_mobility/index.html" class="no-external">
-<p><img loading="lazy" src="./articles/working/upward_mobility/featured.png" class="thumbnail-image"></p>
-</a><p><a href="./articles/working/upward_mobility/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./articles/working/upward_mobility/index.html" class="no-external">Upward Mobility of Frontline Fossil Fuel Workers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./articles/working/upward_mobility/index.html" class="no-external"><em>Qing Chang. Working Paper</em></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./articles/working/upward_mobility/index.html" class="no-external"></a></p><a href="./articles/working/upward_mobility/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="UG9saXRpY2FsJTIwRWNvbm9teSUyQ1dvcmtpbmclMjBQYXBlcg==" data-listing-date-sort="1709096400000" data-listing-file-modified-sort="1736296999996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<div class="thumbnail">
-<p><a href="./articles/working/geo_selection/index.html" class="no-external"></a></p><a href="./articles/working/geo_selection/index.html" class="no-external">
-<p><img loading="lazy" src="./articles/working/geo_selection/featured.png" class="thumbnail-image"></p>
-</a><p><a href="./articles/working/geo_selection/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./articles/working/geo_selection/index.html" class="no-external">Political Selection, Resource Allocation, and Long-term Economic Growth</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./articles/working/geo_selection/index.html" class="no-external"><em>Qing Chang. Working Paper</em></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./articles/working/geo_selection/index.html" class="no-external"></a></p><a href="./articles/working/geo_selection/index.html" class="no-external">
-</a>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/published/political_connection/featured.png" data-lightbox-alt="Political connection article figure" aria-label="Expand figure for Good Friends versus Best Friends">
+<img src="articles/published/political_connection/featured.png" alt="">
+</button>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
+</section>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
+<div class="paper-list">
+<div class="paper-entry">
+<section id="upward-mobility-in-the-green-sector-for-frontline-fossil-fuel-workers" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="upward-mobility-in-the-green-sector-for-frontline-fossil-fuel-workers">Upward mobility in the green sector for frontline fossil fuel workers</h3>
+<p class="paper-authors">
+<strong class="author-me">Qing Chang</strong>, Michael Aklin, Morgan R. Frank, Shanti Gamper-Rabindran. Under review at <em>Nature</em>.
+</p>
+<p class="paper-funding">
+Funded by Carnegie Corp of NY, grant no. G-22-59414.
+</p>
+<div class="paper-links">
+<p><a href="articles/working/upward_mobility/">Paper page</a> <a href="projects/upward_mobility/">Research story</a></p>
+</div>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/upward_mobility/featured.png" data-lightbox-alt="Upward mobility paper figure" aria-label="Expand figure for upward mobility in the green sector">
+<img src="articles/working/upward_mobility/featured.png" alt="">
+</button>
 </div>
 </div>
+<div class="paper-entry">
+<section id="us-green-federal-investments-created-quality-green-jobs-and-benefitted-fossil-fuel-workers-and-communities" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="us-green-federal-investments-created-quality-green-jobs-and-benefitted-fossil-fuel-workers-and-communities">US Green Federal Investments Created Quality Green Jobs and Benefitted Fossil Fuel Workers and Communities</h3>
+<p class="paper-authors">
+<strong class="author-me">Qing Chang</strong>, Michael Aklin, Morgan R. Frank, Shanti Gamper-Rabindran.
+</p>
+<p class="paper-funding">
+Funded by Carnegie Corp of NY, grant no. G-22-59414.
+</p>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/us_green_federal_investments/featured.png" data-lightbox-alt="US green federal investments figure" aria-label="Expand figure for US Green Federal Investments Created Quality Green Jobs and Benefitted Fossil Fuel Workers and Communities">
+<img src="articles/working/us_green_federal_investments/featured.png" alt="">
+</button>
+</div>
+</div>
+<div class="paper-entry">
+<section id="promotion-incentives-political-competition-and-public-land-prices" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="promotion-incentives-political-competition-and-public-land-prices">Promotion Incentives, Political Competition, and Public Land Prices</h3>
+<p class="paper-authors">
+<strong class="author-me">Qing Chang</strong>.
+</p>
+<p class="paper-funding">
+Funded by Evelyn and Thomas Rawski Graduate Fellowship in China or Chinese Studies.
+</p>
+<div class="paper-links">
+<p><a href="articles/working/develop_incentive/">Paper page</a> <a href="projects/develop_incentive/">Research story</a> <a href="articles/working/develop_incentive/promotion_land.pdf">PDF</a></p>
+</div>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/develop_incentive/featured.png" data-lightbox-alt="Promotion incentives paper figure" aria-label="Expand figure for Promotion Incentives, Political Competition, and Public Land Prices">
+<img src="articles/working/develop_incentive/featured.png" alt="">
+</button>
+</div>
+</div>
+<div class="paper-entry">
+<section id="brains-in-motion-u.s.-china-talent-flows-in-strategic-technology-sectors" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="brains-in-motion-u.s.-china-talent-flows-in-strategic-technology-sectors">Brains in Motion: U.S.-China Talent Flows in Strategic Technology Sectors</h3>
+<p class="paper-authors">
+A. Javadian Sabet, <strong class="author-me">Qing Chang</strong>, Ziji Ma, Morgan Frank.
+</p>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/brains_in_motion/featured.png" data-lightbox-alt="Brains in Motion figure" aria-label="Expand figure for Brains in Motion: U.S.-China Talent Flows in Strategic Technology Sectors">
+<img src="articles/working/brains_in_motion/featured.png" alt="">
+</button>
+</div>
+</div>
+<div class="paper-entry">
+<section id="political-selection-resource-allocation-and-long-term-economic-growth" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="political-selection-resource-allocation-and-long-term-economic-growth">Political Selection, Resource Allocation, and Long-term Economic Growth</h3>
+<p class="paper-authors">
+<strong class="author-me">Qing Chang</strong>.
+</p>
+<div class="paper-links">
+<p><a href="articles/working/geo_selection/">Paper page</a> <a href="articles/working/geo_selection/political_selection_growth.pdf">PDF</a></p>
+</div>
+</section>
+<div class="paper-figure">
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/geo_selection/featured.png" data-lightbox-alt="Political selection paper figure" aria-label="Expand figure for Political Selection, Resource Allocation, and Long-term Economic Growth">
+<img src="articles/working/geo_selection/featured.png" alt="">
+</button>
+</div>
+</div>
+<div class="paper-entry">
+<section id="who-powers-the-energy-transition-engineering-talent-in-clean-energy-rd" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="who-powers-the-energy-transition-engineering-talent-in-clean-energy-rd">Who Powers the Energy Transition? Engineering Talent in Clean Energy R&amp;D</h3>
+<p class="paper-authors">
+Arezou Farzaneh, <strong class="author-me">Qing Chang</strong>, Morgan R. Frank, Shanti Gamper-Rabindran.
+</p>
+<p class="paper-funding">
+Funded by The Mascaro Center for Sustainable Innovation.
+</p>
+</section>
+<div class="paper-figure paper-figure-empty">
 
+</div>
+</div>
+<div class="paper-entry">
+<section id="labor-gaps-in-the-green-transition-challenges-and-opportunities" class="level3 paper-copy">
+<h3 class="anchored" data-anchor-id="labor-gaps-in-the-green-transition-challenges-and-opportunities">Labor Gaps in the Green Transition: Challenges and Opportunities</h3>
+<p class="paper-authors">
+Junghyun Lim, Michael Aklin, <strong class="author-me">Qing Chang</strong>, Florian Egli, Arezou Farzaneh, Morgan Frank, Shanti Gamper-Rabindran, Nathan Jensen, Valerie Karplus, David Konisky, Penny Mealy, Matto Mildenberger, Daniel Rock, Dustin Tingley, Anaelle Toure, Francesco Vona.
+</p>
+</section>
+<div class="paper-figure paper-figure-empty">
+
+</div>
+</div>
+</div>
+</section>
+</div>
+<script src="js/research-lightbox.js"></script>
 
 
 
@@ -796,10 +747,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
+<p>© 2026 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
 </div>   
     <div class="nav-footer-center">
-<p>Important <a href="./license.html">License</a> Notice!</p>
+<p><a href="./license.html">License</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

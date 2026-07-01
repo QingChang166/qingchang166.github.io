@@ -27,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
@@ -41,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-0247519a2dd9e3ce6b87c7fa56becf41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-24ac06467fec5b1e1232d11c2de7215e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../styles.css">
 <link rel="stylesheet" href="../../../asset/listing-article.css">
+<link rel="stylesheet" href="../../../asset/story.css">
 <meta name="citation_title" content="Generalized Kernel Regularized Least Squares">
 <meta name="citation_author" content="Qing Chang">
 <meta name="citation_author" content="Max Goplerud">
@@ -101,38 +101,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="../../../index.html"> <i class="bi bi-house" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../Qing_Chang_CV.pdf"> <i class="bi bi-paperclip" role="img">
+    <a class="nav-link" href="../../../articles.html"> <i class="bi bi-journal-text" role="img">
+</i> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../projects.html"> <i class="bi bi-terminal" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teaching.html"> <i class="bi bi-mortarboard" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Qing_Chang_CV.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-earmark-text-fill" role="img">
-</i> 
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="../../../articles.html"><i class="bi bi-file-earmark" role="img">
-</i> 
- <span class="dropdown-text">Article</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../projects.html"><i class="bi bi-terminal" role="img">
-</i> 
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../teaching.html"> <i class="bi bi-mortarboard-fill" role="img">
+    <a class="nav-link" href="../../../contact.html"> <i class="bi bi-envelope" role="img">
 </i> 
-<span class="menu-text">Teaching</span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -142,7 +138,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img" aria-label="X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:qic108@pitt.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -210,7 +211,125 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>Abstract</strong>: Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables. However, its usefulness to many researchers is limited for two reasons. First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically-motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes. Second, estimation is extremely computationally intensive for even modestly sized datasets. Our paper addresses both concerns by introducing generalized KRLS (<em>gKRLS</em>). We note that KRLS can be re-formulated as a hierarchical model thereby allowing easy inference and modular model construction where KRLS can be used alongside random effects, splines, and unregularized fixed effects. Computationally, we also implement random sketching to dramatically accelerate estimation while incurring a limited penalty in estimation quality. We demonstrate that <em>gKRLS</em> can be fit on datasets with tens of thousands of observations in under one minute. Further, state-of-the-art techniques that require fitting the model over a dozen times (e.g.&nbsp;meta-learners) can be estimated quickly.</p>
+<script src="../../../js/story-scroll.js" defer=""></script>
+<div class="paper-story">
+<div class="story-progress">
+<p><span>Problem</span> <span>Idea</span> <span>Scale</span> <span>Contribution</span></p>
+</div>
+<div class="story-step" data-step="0">
+<div>
+<div class="story-kicker">
+The problem
+</div>
+<section id="flexible-models-are-useful-but-often-hard-to-extend" class="level2">
+<h2 class="anchored" data-anchor-id="flexible-models-are-useful-but-often-hard-to-extend">Flexible models are useful, but often hard to extend</h2>
+<p>Kernel Regularized Least Squares (KRLS) is attractive because it can learn complex relationships without forcing researchers to specify a rigid functional form. The difficulty is that standard KRLS is not easy to combine with random effects, fixed effects, non-Gaussian outcomes, or newer causal machine-learning workflows.</p>
+</section>
+</div>
+<div class="figure-panel">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>Featured visual for the generalized KRLS paper</figcaption>
+</figure>
+</div>
+<p class="figure-caption">
+The paper starts from a practical tension: flexible prediction is valuable, but social-science models also need modular structure and interpretable uncertainty.
+</p>
+</div>
+</div>
+<div class="story-step" data-step="1">
+<div>
+<div class="story-kicker">
+The idea
+</div>
+<section id="recast-krls-as-a-modular-statistical-model" class="level2">
+<h2 class="anchored" data-anchor-id="recast-krls-as-a-modular-statistical-model">Recast KRLS as a modular statistical model</h2>
+<p>We show that KRLS can be reformulated as a hierarchical model. That shift makes the method easier to combine with familiar components such as random effects, splines, and unregularized fixed effects.</p>
+</section>
+</div>
+<div class="figure-panel">
+<div class="model-stack">
+<div>
+Outcome model
+</div>
+<div>
+Kernel component
+</div>
+<div>
+Random effects, splines, fixed effects
+</div>
+<div>
+Inference and prediction
+</div>
+</div>
+<p class="figure-caption">
+The central move is architectural: KRLS becomes one component in a broader statistical model rather than a standalone black box.
+</p>
+</div>
+</div>
+<div class="story-step" data-step="2">
+<div>
+<div class="story-kicker">
+The scaling move
+</div>
+<section id="random-sketching-makes-flexible-learning-practical" class="level2">
+<h2 class="anchored" data-anchor-id="random-sketching-makes-flexible-learning-practical">Random sketching makes flexible learning practical</h2>
+<p>The paper uses random sketching to reduce the computational burden of KRLS. This makes it possible to fit flexible models on datasets with tens of thousands of observations quickly enough for applied workflows.</p>
+</section>
+</div>
+<div class="figure-panel">
+<div class="sketch-bars">
+<div>
+Full kernel problem
+</div>
+<div>
+Sketched approximation
+</div>
+<div>
+Fast estimation target
+</div>
+</div>
+<p class="figure-caption">
+Random sketching trades a small amount of approximation for a large gain in computational speed.
+</p>
+</div>
+</div>
+<div class="story-step" data-step="3">
+<div>
+<div class="story-kicker">
+What this changes
+</div>
+<section id="a-flexible-method-becomes-easier-to-use-in-serious-empirical-designs" class="level2">
+<h2 class="anchored" data-anchor-id="a-flexible-method-becomes-easier-to-use-in-serious-empirical-designs">A flexible method becomes easier to use in serious empirical designs</h2>
+<p>Generalized KRLS helps researchers keep the flexibility of kernel learning while adding structure that applied social-science designs often require.</p>
+</section>
+</div>
+<div class="figure-panel">
+<div class="contribution-list">
+<div>
+Flexible nonlinear relationships
+</div>
+<div>
+Modular model construction
+</div>
+<div>
+Faster estimation through sketching
+</div>
+<div>
+Better integration with modern causal workflows
+</div>
+</div>
+<p class="figure-caption">
+The contribution is not only speed. It is a more extensible way to bring statistical learning into interpretable social-science research.
+</p>
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables. However, its usefulness to many researchers is limited for two reasons. First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes. Second, estimation is extremely computationally intensive for even modestly sized datasets. Our paper addresses both concerns by introducing generalized KRLS (<em>gKRLS</em>).</p>
+</section>
+</div>
 
 
 
@@ -636,10 +755,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
+<p>© 2026 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
 </div>   
     <div class="nav-footer-center">
-<p>Important <a href="../../../license.html">License</a> Notice!</p>
+<p><a href="../../../license.html">License</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

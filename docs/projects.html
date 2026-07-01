@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Ambitious and groundbreaking projects that are continuously evolving, with the potential to produce multiple research papers.">
 
-<title>Projects – Qing Chang</title>
+<title>Research Projects – Qing Chang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,14 +25,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b45aa5c15dd51cdea01247e9f4e2a460.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b9d54017ded6591775ba0a164cbc928e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-categories','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="asset/listing-project.css">
@@ -152,38 +90,34 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Qing_Chang_CV.pdf"> <i class="bi bi-paperclip" role="img">
+    <a class="nav-link" href="./articles.html"> <i class="bi bi-journal-text" role="img">
+</i> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> <i class="bi bi-terminal" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> <i class="bi bi-mortarboard" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Qing_Chang_CV.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-earmark-text-fill" role="img">
-</i> 
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./articles.html"><i class="bi bi-file-earmark" role="img">
-</i> 
- <span class="dropdown-text">Article</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html"><i class="bi bi-terminal" role="img">
-</i> 
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> <i class="bi bi-mortarboard-fill" role="img">
+    <a class="nav-link" href="./contact.html"> <i class="bi bi-envelope" role="img">
 </i> 
-<span class="menu-text">Teaching</span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -193,7 +127,12 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/QingChang19"> <i class="bi bi-twitter-x" role="img" aria-label="X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:qic108@pitt.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -214,14 +153,9 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Research Projects</h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>Ambitious and groundbreaking projects that are continuously evolving, with the potential to produce multiple research papers.</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta column-page">
@@ -236,77 +170,68 @@ window.Quarto = {
 </header>
 
 
+<section class="project-showcase" aria-label="Selected research project showcase">
+  <article class="showcase-project">
+    <a class="showcase-media" href="https://shiny.crc.pitt.edu/conflictscope/" target="_blank" rel="noopener noreferrer" aria-label="Open Conflict Prediction project in a new tab">
+      <img src="projects/conflict_forcast/featured.png" alt="Preview image for Conflict Prediction: an Interactive Map">
+      <span class="showcase-scan" aria-hidden="true"></span>
+    </a>
+    <div class="showcase-copy">
+      <div class="eyebrow">Interactive map</div>
+      <h2 class="anchored">Conflict Prediction: an Interactive Map</h2>
+      <p>Conflict forecasting work that turns spatial and relational structure into an explorable research interface.</p>
+      <div class="showcase-steps" aria-label="Project workflow">
+        <span>Actors</span>
+        <span>Places</span>
+        <span>Events</span>
+        <span>Forecasts</span>
+      </div>
+      <a class="story-link" href="https://shiny.crc.pitt.edu/conflictscope/" target="_blank" rel="noopener noreferrer">View project</a>
+    </div>
+  </article>
+
+  <article class="showcase-project">
+    <a class="showcase-media" href="projects/upward_mobility/" aria-label="Open Upward Mobility project story">
+      <img src="articles/working/upward_mobility/featured.png" alt="Preview image for Upward Mobility of Frontline Fossil Fuel Workers">
+      <span class="showcase-scan" aria-hidden="true"></span>
+    </a>
+    <div class="showcase-copy">
+      <div class="eyebrow">Research Story</div>
+      <h2 class="anchored">Upward Mobility of Frontline Fossil Fuel Workers</h2>
+      <p>A visual story about how green-sector transitions can create career ladders, wage gains, and skill pathways for frontline fossil fuel workers.</p>
+      <div class="showcase-steps" aria-label="Project workflow">
+        <span>Workers</span>
+        <span>Mobility</span>
+        <span>Wages</span>
+        <span>Skills</span>
+      </div>
+      <a class="story-link" href="projects/upward_mobility/">Read story</a>
+    </div>
+  </article>
+
+  <article class="showcase-project">
+    <a class="showcase-media" href="projects/develop_incentive/" aria-label="Open Promotion Incentives project story">
+      <img src="articles/working/develop_incentive/featured.png" alt="Preview image for Promotion Incentives, Political Competition, and Public Land Prices">
+      <span class="showcase-scan" aria-hidden="true"></span>
+    </a>
+    <div class="showcase-copy">
+      <div class="eyebrow">Research Story</div>
+      <h2 class="anchored">Promotion Incentives, Political Competition, and Public Land Prices</h2>
+      <p>A visual story about how career pressure can move land prices, reshape distributional conflict, and increase protest.</p>
+      <div class="showcase-steps" aria-label="Project workflow">
+        <span>Incentives</span>
+        <span>Land</span>
+        <span>Borders</span>
+        <span>Protest</span>
+      </div>
+      <a class="story-link" href="projects/develop_incentive/">Read story</a>
+    </div>
+  </article>
+</section>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q29uZmxpY3QlMjBQcmVkaWN0aW9uJTJDU2hpbnklMjBBcHAlMkNJbnRlcmFjdGl2ZSUyME1hcA==" data-listing-date-sort="1737090000000" data-listing-file-modified-sort="1737393123792" data-listing-date-modified-sort="1739077200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<a href="./projects/conflict_forcast/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/conflict_forcast/featured.png" class="thumbnail-image card-img" style="height: 400px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Conflict Prediction: an Interactive Map
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmxpY3QlMjBQcmVkaWN0aW9u'); return false;">
-Conflict Prediction
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnklMjBBcHA='); return false;">
-Shiny App
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJhY3RpdmUlMjBNYXA='); return false;">
-Interactive Map
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 17, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TGFib3IlMjBNYXJrZXQlMkNKdXN0JTIwVHJhbnNpdGlvbiUyQ1Vwd2FyZCUyME1vYmlsaXR5" data-listing-date-sort="1737003600000" data-listing-file-modified-sort="1737398083903" data-listing-date-modified-sort="1739077200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<a href="./projects/just_transition/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/just_transition/featured.png" class="thumbnail-image card-img" style="height: 400px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Just Transition and Labor Market Dynamic
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGFib3IlMjBNYXJrZXQ='); return false;">
-Labor Market
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SnVzdCUyMFRyYW5zaXRpb24='); return false;">
-Just Transition
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('VXB3YXJkJTIwTW9iaWxpdHk='); return false;">
-Upward Mobility
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 16, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -728,10 +653,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
+<p>© 2026 Qing Chang ∙ Made with <a href="https://quarto.org">Quarto</a>.</p>
 </div>   
     <div class="nav-footer-center">
-<p>Important <a href="./license.html">License</a> Notice!</p>
+<p><a href="./license.html">License</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

@@ -1,10 +1,204 @@
 ---
-title: "Qing Chang, PhD"
-subtitle: "University of Pittsburgh"
-format: 
-  html:
-    template-partials: 
-      - title-block.html
-toc: false
-title-block-banner: true
+title: ""
+pagetitle: "Qing Chang"
+title-block-banner: false
+page-layout: full
 ---
+
+```{=html}
+<section class="site-hero">
+  <div>
+    <div class="eyebrow">Research data scientist and computational social scientist</div>
+    <h1>Qing Chang</h1>
+    <div class="hero-affiliations">
+      <p>Hub for AI and Data Science Leadership (HAIL), University of Pittsburgh</p>
+      <p>
+        Affiliate:
+        <a href="https://michaelcolaresi.com/redscaip">Responsible Data Science, Complexity, and AI for Peace Lab</a>
+        ·
+        <a href="https://sites.pitt.edu/~mrfrank/resilientEconomy.html">Resilient Economy Lab</a>
+      </p>
+    </div>
+    <p class="hero-statement">
+      I use AI, data, and rigorous social science methods to generate credible evidence on industrial policy, technological innovation, talent flows, and conflict.
+    </p>
+  </div>
+  <div class="hero-portrait">
+    <img src="Qing1.png" alt="Portrait of Qing Chang">
+  </div>
+</section>
+
+<section class="site-section compact research-signal-map" aria-label="Research areas">
+  <div class="signal-map-header">
+    <div class="eyebrow">Research areas</div>
+  </div>
+  <div class="signal-map" aria-label="Research area signal map">
+    <article class="research-node node-energy">
+      <span>01</span>
+      <strong>AI & Energy</strong>
+    </article>
+    <article class="research-node node-work">
+      <span>02</span>
+      <strong>Future of Work</strong>
+    </article>
+    <article class="research-node node-workforce">
+      <span>03</span>
+      <strong>Workforce Development</strong>
+    </article>
+    <article class="research-node node-conflict">
+      <span>04</span>
+      <strong>Graph AI & Conflict Forecasting</strong>
+    </article>
+  </div>
+</section>
+
+<section class="capability-console site-section">
+  <div class="eyebrow">Research Toolkit</div>
+  <div class="console-heading">
+    <h2>From Complex Data to Credible Evidence</h2>
+  </div>
+  <div class="console-layout">
+    <div class="skill-tabs" role="tablist" aria-label="Core research capabilities">
+      <button class="skill-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="skill-interdisciplinary" data-skill="interdisciplinary">
+        <span>01</span>
+        Interdisciplinary computational social science
+      </button>
+      <button class="skill-tab" type="button" role="tab" aria-selected="false" aria-controls="skill-data" data-skill="data">
+        <span>02</span>
+        Large scale structured and semi structured data
+      </button>
+      <button class="skill-tab" type="button" role="tab" aria-selected="false" aria-controls="skill-causal" data-skill="causal">
+        <span>03</span>
+        Causal machine learning and policy inference
+      </button>
+      <button class="skill-tab" type="button" role="tab" aria-selected="false" aria-controls="skill-tools" data-skill="tools">
+        <span>04</span>
+        Interactive visualization and research tool development
+      </button>
+      <button class="skill-tab" type="button" role="tab" aria-selected="false" aria-controls="skill-geo" data-skill="geo">
+        <span>05</span>
+        Geospatial and network data science
+      </button>
+      <button class="skill-tab" type="button" role="tab" aria-selected="false" aria-controls="skill-knowledge" data-skill="knowledge">
+        <span>06</span>
+        Knowledge graph driven AI applications
+      </button>
+    </div>
+
+    <div class="capability-panels">
+      <article class="capability-panel is-active" id="skill-interdisciplinary" role="tabpanel" data-skill-panel="interdisciplinary">
+        <div class="panel-kicker">Research orientation</div>
+        <p>I work across political science, economics, and data science to study how technological change, especially in green energy and AI, reshapes labor markets and workforce development. My research also asks how evidence-based policy can ease technological disruption while supporting long-run economic adaptation. This work connects substantive social science questions with data-intensive empirical analysis.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#upward-mobility-in-the-green-sector-for-frontline-fossil-fuel-workers">
+            <span class="work-type">Working paper</span>
+            <span>Upward mobility in the green sector for frontline fossil fuel workers</span>
+          </a>
+          <a class="selected-work" href="articles.html#us-green-federal-investments-created-quality-green-jobs-and-benefitted-fossil-fuel-workers-and-communities">
+            <span class="work-type">Working paper</span>
+            <span>US Green Federal Investments Created Quality Green Jobs and Benefitted Fossil Fuel Workers and Communities</span>
+          </a>
+          <a class="selected-work" href="articles.html#labor-gaps-in-the-green-transition-challenges-and-opportunities">
+            <span class="work-type">Working paper</span>
+            <span>Labor Gaps in the Green Transition: Challenges and Opportunities</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="capability-panel" id="skill-data" role="tabpanel" data-skill-panel="data" hidden>
+        <div class="panel-kicker">Data infrastructure</div>
+        <p>I regularly build research datasets from administrative records, workforce intelligence data, patents, firm and investment data, and geospatial sources. A large part of my work involves turning complex and messy data into usable research inputs through cleaning, harmonization, linkage, validation, and documentation. These workflows are central to making large-scale data reliable for collaborative research.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#promotion-incentives-political-competition-and-public-land-prices">
+            <span class="work-type">Working paper</span>
+            <span>Promotion Incentives, Political Competition, and Public Land Prices</span>
+          </a>
+          <a class="selected-work" href="articles.html#political-selection-resource-allocation-and-long-term-economic-growth">
+            <span class="work-type">Working paper</span>
+            <span>Political Selection, Resource Allocation, and Long-term Economic Growth</span>
+          </a>
+          <a class="selected-work" href="articles.html#good-friends-versus-best-friends-how-different-types-of-political-connection-work-in-china">
+            <span class="work-type">Published article</span>
+            <span>Good Friends versus Best Friends: How Different Types of Political Connection Work in China</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="capability-panel" id="skill-causal" role="tabpanel" data-skill-panel="causal" hidden>
+        <div class="panel-kicker">Policy inference</div>
+        <p>My work uses rigorous empirical strategies, including both traditional causal inference tools and newer causal machine learning methods, to study how policy and technological change affect workers, regions, and firms. I place strong emphasis on careful research design so that empirical results remain credible and policy relevant. I have also contributed to methodological tools that make flexible causal analysis more usable for applied social science research.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#generalized-kernel-regularized-least-squares">
+            <span class="work-type">Published article</span>
+            <span>Generalized Kernel Regularized Least Squares</span>
+          </a>
+          <a class="selected-work" href="articles.html#promotion-incentives-political-competition-and-public-land-prices">
+            <span class="work-type">Working paper</span>
+            <span>Promotion Incentives, Political Competition, and Public Land Prices</span>
+          </a>
+          <a class="selected-work" href="articles.html#good-friends-versus-best-friends-how-different-types-of-political-connection-work-in-china">
+            <span class="work-type">Published article</span>
+            <span>Good Friends versus Best Friends: How Different Types of Political Connection Work in China</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="capability-panel" id="skill-tools" role="tabpanel" data-skill-panel="tools" hidden>
+        <div class="panel-kicker">Research interfaces</div>
+        <p>I develop interactive tools that help research teams explore data, review results, and use empirical outputs more effectively. This includes building applications that connect backend data workflows with frontend interfaces for research use. I also use AI-assisted development tools to create features that improve research workflows for collaborators and research assistants.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#generalized-kernel-regularized-least-squares">
+            <span class="work-type">Published article</span>
+            <span>Generalized Kernel Regularized Least Squares</span>
+          </a>
+          <a class="selected-work" href="projects/conflict_forcast/">
+            <span class="work-type">Project story</span>
+            <span>Conflict Prediction: an Interactive Map</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="capability-panel" id="skill-geo" role="tabpanel" data-skill-panel="geo" hidden>
+        <div class="panel-kicker">Spatial and relational data</div>
+        <p>My research often relies on spatial and relational data to study how workers, firms, places, and events are connected. In my work on green investment, I use geocoded investments, local labor market data, and job-to-job flows to study geographic mismatch between workers and emerging opportunities. In my conflict forecasting work, I use spatial and relational structure to represent how actors, places, and events interact over time.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#upward-mobility-in-the-green-sector-for-frontline-fossil-fuel-workers">
+            <span class="work-type">Working paper</span>
+            <span>Upward mobility in the green sector for frontline fossil fuel workers</span>
+          </a>
+          <a class="selected-work" href="articles.html#political-selection-resource-allocation-and-long-term-economic-growth">
+            <span class="work-type">Working paper</span>
+            <span>Political Selection, Resource Allocation, and Long-term Economic Growth</span>
+          </a>
+          <a class="selected-work" href="articles.html#labor-gaps-in-the-green-transition-challenges-and-opportunities">
+            <span class="work-type">Working paper</span>
+            <span>Labor Gaps in the Green Transition: Challenges and Opportunities</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="capability-panel" id="skill-knowledge" role="tabpanel" data-skill-panel="knowledge" hidden>
+        <div class="panel-kicker">AI research infrastructure</div>
+        <p>I use knowledge graphs and AI tools to organize complex social and spatial information in ways that support analysis, forecasting, and research applications. In my conflict work, this means structuring messy information so that it can be queried, updated, and used in downstream models and interactive tools. More broadly, this reflects my approach to AI as a way to build stronger research infrastructure rather than simply generate outputs.</p>
+        <div class="selected-work-list" aria-label="Selected work">
+          <div class="selected-work-heading">Selected work</div>
+          <a class="selected-work" href="articles.html#brains-in-motion-u.s.-china-talent-flows-in-strategic-technology-sectors">
+            <span class="work-type">Working paper</span>
+            <span>Brains in Motion: U.S.-China Talent Flows in Strategic Technology Sectors</span>
+          </a>
+          <a class="selected-work" href="articles.html#who-powers-the-energy-transition-engineering-talent-in-clean-energy-rd">
+            <span class="work-type">Working paper</span>
+            <span>Who Powers the Energy Transition? Engineering Talent in Clean Energy R&amp;D</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<script src="js/capability-console.js" defer></script>
+```

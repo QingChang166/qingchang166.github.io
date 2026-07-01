@@ -1,36 +1,171 @@
 ---
-title: "Published Article"
-listing: 
-  - id: published
-    contents: articles/published
-    sort: "date desc"
-    fields: [image, title]
-    type: default
-    categories: true
-    image-align: left
-  - id: working
-    contents: articles/working
-    sort: "date desc"
-    fields: [image, title, text]
-    type: default
-    sort-ui: false
-    filter-ui: false
-    categories: false
-    image-align: left
+title: "Research"
 format: 
   html: 
     page-layout: full
     css: asset/listing-default.css
 page-navigation: false
 title-block-banner: false
+resources:
+  - js/research-lightbox.js
 ---
 
-::: {#published}
+::: {.listing-page}
+## Published articles
+
+::: {.paper-list}
+::: {.paper-entry}
+::: {.paper-copy}
+### Generalized Kernel Regularized Least Squares
+
+<p class="paper-authors"><strong class="author-me">Chang, Qing</strong>, and Max Goplerud. <em>Political Analysis</em> 32.2 (2024): 157-171.</p>
+
+::: {.paper-links}
+[Paper page](articles/published/gKRLS/) [Published Version](https://www.cambridge.org/core/journals/political-analysis/article/generalized-kernel-regularized-least-squares/09F9B1E299E26A452FCF256129F450E7) [Package on CRAN](https://cran.r-project.org/web/packages/gKRLS/index.html) [Arxiv](https://arxiv.org/abs/2209.14355)
+:::
 :::
 
-::: {style="text-align: center; margin-bottom: 3rem"}
-# Working Paper
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/published/gKRLS/featured.png" data-lightbox-alt="gKRLS article figure" aria-label="Expand figure for Generalized Kernel Regularized Least Squares">
+  <img src="articles/published/gKRLS/featured.png" alt="">
+</button>
+:::
 :::
 
-::: {#working}
+::: {.paper-entry}
+::: {.paper-copy}
+### Good Friends versus Best Friends: How Different Types of Political Connection Work in China
+
+<p class="paper-authors"><strong class="author-me">Qing Chang</strong>. <em>Journal of Political Institutions and Political Economy</em> 4.2 (2023): 259-285.</p>
+
+::: {.paper-links}
+[Paper page](articles/published/political_connection/) [Published Version](https://www.nowpublishers.com/article/Details/PIP-0078) [Code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UG0LGE) [Open Access](https://www.dropbox.com/scl/fi/sf236fcuov62j19f8648v/JPIPE_Final.pdf?rlkey=jtyerweq2mbdasjorggbuzvtk&e=1&dl=0)
 :::
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/published/political_connection/featured.png" data-lightbox-alt="Political connection article figure" aria-label="Expand figure for Good Friends versus Best Friends">
+  <img src="articles/published/political_connection/featured.png" alt="">
+</button>
+:::
+:::
+:::
+
+## Working papers
+
+::: {.paper-list}
+::: {.paper-entry}
+::: {.paper-copy}
+### Upward mobility in the green sector for frontline fossil fuel workers
+
+<p class="paper-authors"><strong class="author-me">Qing Chang</strong>, Michael Aklin, Morgan R. Frank, Shanti Gamper-Rabindran. Under review at <em>Nature</em>.</p>
+
+<p class="paper-funding">Funded by Carnegie Corp of NY, grant no. G-22-59414.</p>
+
+::: {.paper-links}
+[Paper page](articles/working/upward_mobility/) [Research story](projects/upward_mobility/)
+:::
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/upward_mobility/featured.png" data-lightbox-alt="Upward mobility paper figure" aria-label="Expand figure for upward mobility in the green sector">
+  <img src="articles/working/upward_mobility/featured.png" alt="">
+</button>
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### US Green Federal Investments Created Quality Green Jobs and Benefitted Fossil Fuel Workers and Communities
+
+<p class="paper-authors"><strong class="author-me">Qing Chang</strong>, Michael Aklin, Morgan R. Frank, Shanti Gamper-Rabindran.</p>
+
+<p class="paper-funding">Funded by Carnegie Corp of NY, grant no. G-22-59414.</p>
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/us_green_federal_investments/featured.png" data-lightbox-alt="US green federal investments figure" aria-label="Expand figure for US Green Federal Investments Created Quality Green Jobs and Benefitted Fossil Fuel Workers and Communities">
+  <img src="articles/working/us_green_federal_investments/featured.png" alt="">
+</button>
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### Promotion Incentives, Political Competition, and Public Land Prices
+
+<p class="paper-authors"><strong class="author-me">Qing Chang</strong>.</p>
+
+<p class="paper-funding">Funded by Evelyn and Thomas Rawski Graduate Fellowship in China or Chinese Studies.</p>
+
+::: {.paper-links}
+[Paper page](articles/working/develop_incentive/) [Research story](projects/develop_incentive/) [PDF](articles/working/develop_incentive/promotion_land.pdf)
+:::
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/develop_incentive/featured.png" data-lightbox-alt="Promotion incentives paper figure" aria-label="Expand figure for Promotion Incentives, Political Competition, and Public Land Prices">
+  <img src="articles/working/develop_incentive/featured.png" alt="">
+</button>
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### Brains in Motion: U.S.-China Talent Flows in Strategic Technology Sectors
+
+<p class="paper-authors">A. Javadian Sabet, <strong class="author-me">Qing Chang</strong>, Ziji Ma, Morgan Frank.</p>
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/brains_in_motion/featured.png" data-lightbox-alt="Brains in Motion figure" aria-label="Expand figure for Brains in Motion: U.S.-China Talent Flows in Strategic Technology Sectors">
+  <img src="articles/working/brains_in_motion/featured.png" alt="">
+</button>
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### Political Selection, Resource Allocation, and Long-term Economic Growth
+
+<p class="paper-authors"><strong class="author-me">Qing Chang</strong>.</p>
+
+::: {.paper-links}
+[Paper page](articles/working/geo_selection/) [PDF](articles/working/geo_selection/political_selection_growth.pdf)
+:::
+:::
+
+::: {.paper-figure}
+<button class="paper-figure-button" type="button" data-lightbox-src="articles/working/geo_selection/featured.png" data-lightbox-alt="Political selection paper figure" aria-label="Expand figure for Political Selection, Resource Allocation, and Long-term Economic Growth">
+  <img src="articles/working/geo_selection/featured.png" alt="">
+</button>
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### Who Powers the Energy Transition? Engineering Talent in Clean Energy R&D
+
+<p class="paper-authors">Arezou Farzaneh, <strong class="author-me">Qing Chang</strong>, Morgan R. Frank, Shanti Gamper-Rabindran.</p>
+
+<p class="paper-funding">Funded by The Mascaro Center for Sustainable Innovation.</p>
+:::
+
+::: {.paper-figure .paper-figure-empty}
+:::
+:::
+
+::: {.paper-entry}
+::: {.paper-copy}
+### Labor Gaps in the Green Transition: Challenges and Opportunities
+
+<p class="paper-authors">Junghyun Lim, Michael Aklin, <strong class="author-me">Qing Chang</strong>, Florian Egli, Arezou Farzaneh, Morgan Frank, Shanti Gamper-Rabindran, Nathan Jensen, Valerie Karplus, David Konisky, Penny Mealy, Matto Mildenberger, Daniel Rock, Dustin Tingley, Anaelle Toure, Francesco Vona.</p>
+:::
+
+::: {.paper-figure .paper-figure-empty}
+:::
+:::
+:::
+:::
+
+<script src="js/research-lightbox.js"></script>

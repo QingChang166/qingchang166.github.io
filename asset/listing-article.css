@@ -1,42 +1,81 @@
-/* title */
-
-h1.title, .title.h1 {
-    margin-top: 70px; 
+h1.title,
+.title.h1 {
+  margin-top: 0;
 }
 
-h5, .h5 {
-    margin-top: 74px;
+h5,
+.h5 {
+  margin-top: 1rem;
 }
 
 .btn-secondary {
-    --bs-btn-hover-color: red;
+  --bs-btn-hover-color: var(--accent);
 }
 
 .quarto-categories {
+  column-gap: 0.4em;
   display: flex;
   flex-direction: row;
-  column-gap: 0.4em;
+  flex-wrap: wrap;
 }
 
 .quarto-categories .quarto-category a {
-    color: var(--bs-body-color);
-    font-size: 0.65em;
-    border: solid 1px red;
-    border-radius: .375rem;
-    opacity: .6;
-    padding: .25em .75em;
+  background: rgba(244, 239, 230, 0.06);
+  border: solid 1px var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.72em;
+  opacity: 1;
+  padding: 0.25em 0.75em;
+  text-decoration: none;
 }
 
 .quarto-categories .quarto-category a:hover {
-    color: red;
+  background: rgba(217, 147, 88, 0.12);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-
 .page-columns .column-page {
-    grid-column: body-content-start;
+  grid-column: body-content-start;
 }
 
 .btn-outline-danger {
-  font-size: 0.75rem;
+  --bs-btn-border-color: var(--border);
+  --bs-btn-color: var(--text-main);
+  --bs-btn-hover-bg: var(--accent);
+  --bs-btn-hover-border-color: var(--accent);
+  --bs-btn-hover-color: #fffdf8;
+  font-size: 0.8rem;
 }
 
+#title-block-header.quarto-title-block.default {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.4rem 1rem;
+}
+
+#title-block-header-title .title {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+#title-block-title-desc,
+.subtitle {
+  color: var(--text-muted);
+}
+
+.quarto-title-meta,
+.quarto-title-meta-heading,
+.quarto-title-meta-contents {
+  color: var(--text-muted);
+}
+
+.btn,
+.btn-secondary,
+.btn-outline-danger {
+  transition: border-color 180ms ease, color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}

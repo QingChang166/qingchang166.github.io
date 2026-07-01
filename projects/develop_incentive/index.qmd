@@ -1,0 +1,125 @@
+---
+title: "Promotion Incentives, Political Competition, and Public Land Prices"
+subtitle: "A visual story about career pressure, land markets, and collective action"
+author:
+  - name: Qing Chang
+date: "2025-01-28"
+categories: [Political Economy, Land Markets, Working Paper]
+image: ../../articles/working/develop_incentive/featured.png
+css:
+  - ../../asset/listing-article.css
+  - ../../asset/story.css
+title-block-banner: false
+---
+
+<script src="../../js/story-scroll.js" defer></script>
+<script src="../../js/research-lightbox.js" defer></script>
+
+::: {.paper-story .land-story}
+::: {.mobility-story-hero}
+::: {.story-kicker}
+Research Story
+:::
+
+## When promotion tournaments meet land markets
+
+This project asks whether institutionalized promotion incentives can make authoritarian governance less stable by pushing local officials to intervene in land markets, generate distributional injustice, and trigger conflict with citizens.
+
+::: {.story-stat-grid}
+<div><strong>600k</strong><span>residential land transactions</span></div>
+<div><strong>2000-2015</strong><span>land market records</span></div>
+<div><strong>320</strong><span>city-level jurisdictions</span></div>
+:::
+:::
+
+::: {.story-progress}
+<span>Puzzle</span>
+<span>Market</span>
+<span>Design</span>
+<span>Conflict</span>
+<span>Theory</span>
+:::
+
+<section class="scrolly-deck" aria-label="Promotion incentives land market scrollytelling">
+<div class="scrolly-stage" aria-live="polite">
+<figure class="scrolly-visual is-active" data-scrolly-visual="0" data-lightbox-src="/projects/develop_incentive/figures/compensation-gap.png" data-lightbox-alt="Compensation gap figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand compensation gap figure">
+<img src="/projects/develop_incentive/figures/compensation-gap.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Compensation gaps among land-losing citizens show how market prices and compensation can diverge.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="1" data-lightbox-src="/projects/develop_incentive/figures/land-market-expansion.png" data-lightbox-alt="Land market expansion figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand land market expansion figure">
+<img src="/projects/develop_incentive/figures/land-market-expansion.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Residential land prices and land-sale revenues rose sharply after the land market became a major source of local government revenue.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="2" data-lightbox-src="/projects/develop_incentive/figures/border-identification.png" data-lightbox-alt="Border identification figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand border identification figure">
+<img src="/projects/develop_incentive/figures/border-identification.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Cross-border comparisons help compare land transactions that are geographically close but governed by different local political incentives.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="3" data-lightbox-src="/projects/develop_incentive/figures/protest-mediation.png" data-lightbox-alt="Protest mediation figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand protest mediation figure">
+<img src="/projects/develop_incentive/figures/protest-mediation.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Career incentives are linked to protest, and land-price intervention is one channel connecting political incentives to collective action.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="4">
+<div class="contribution-list">
+<div>Connect elite promotion incentives to non-elite property-rights conflict.</div>
+<div>Use large-scale residential land transactions to measure local price intervention.</div>
+<div>Combine land records, leader biographies, protest data, and survey evidence.</div>
+<div>Challenge the view that institutionalized promotion necessarily strengthens regime stability.</div>
+</div>
+</figure>
+</div>
+
+<div class="scrolly-steps">
+<article class="scrolly-step is-active" data-scrolly-step="0">
+<span class="scrolly-step-number">01</span>
+<img class="scrolly-inline-visual" src="/projects/develop_incentive/figures/compensation-gap.png" alt="" data-lightbox-src="/projects/develop_incentive/figures/compensation-gap.png" data-lightbox-alt="Compensation gap figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand compensation gap figure">
+<div class="story-kicker">The puzzle</div>
+<h2>Promotion rules can discipline elites and still create grievances</h2>
+<p>Institutionalized promotion is often understood as a stabilizing force in authoritarian regimes. This paper turns that claim around: when career advancement depends on performance, local leaders may use policy instruments that strengthen their own prospects while imposing costs on citizens.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="1">
+<span class="scrolly-step-number">02</span>
+<img class="scrolly-inline-visual" src="/projects/develop_incentive/figures/land-market-expansion.png" alt="" data-lightbox-src="/projects/develop_incentive/figures/land-market-expansion.png" data-lightbox-alt="Land market expansion figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand land market expansion figure">
+<div class="story-kicker">Land becomes the pressure valve</div>
+<h2>Residential land markets give career-seeking officials a powerful instrument</h2>
+<p>Local governments control land supply and receive large revenues from land sales. As residential land prices and revenues rise, land becomes more than a market asset: it becomes a political tool through which officials can pursue development goals and promotion-relevant performance.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="2">
+<span class="scrolly-step-number">03</span>
+<img class="scrolly-inline-visual" src="/projects/develop_incentive/figures/border-identification.png" alt="" data-lightbox-src="/projects/develop_incentive/figures/border-identification.png" data-lightbox-alt="Border identification figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand border identification figure">
+<div class="story-kicker">A border design turns politics into comparison</div>
+<h2>Nearby parcels reveal how political incentives move prices</h2>
+<p>The empirical design compares land transactions across city borders. Parcels near the same border face similar geography and market conditions, but they are governed by different local leaders. That makes it possible to isolate how career incentives shape land prices.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="3">
+<span class="scrolly-step-number">04</span>
+<img class="scrolly-inline-visual" src="/projects/develop_incentive/figures/protest-mediation.png" alt="" data-lightbox-src="/projects/develop_incentive/figures/protest-mediation.png" data-lightbox-alt="Protest mediation figure from the promotion incentives paper" role="button" tabindex="0" aria-label="Expand protest mediation figure">
+<div class="story-kicker">From price intervention to protest</div>
+<h2>Career pressure travels through land prices into collective action</h2>
+<p>The paper links leader incentives to protest outcomes and shows that land-price intervention helps explain the relationship. The mechanism is political and distributive: citizens respond not only to land loss, but to the perceived injustice of how gains from land development are allocated.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="4">
+<span class="scrolly-step-number">05</span>
+<div class="scrolly-inline-visual contribution-list">
+<div>Connect elite promotion incentives to non-elite property-rights conflict.</div>
+<div>Use large-scale residential land transactions to measure local price intervention.</div>
+<div>Combine land records, leader biographies, protest data, and survey evidence.</div>
+</div>
+<div class="story-kicker">The theory</div>
+<h2>Elite stability can generate citizen-level instability</h2>
+<p>The contribution is a sharper account of authoritarian political economy. Promotion systems may solve one governance problem by managing elites, while creating another by incentivizing policy choices that intensify conflict between local governments and citizens.</p>
+</article>
+</div>
+</section>
+:::

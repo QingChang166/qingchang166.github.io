@@ -8,7 +8,9 @@ date: "2024-4-28"
 categories: [Method]
 image: "featured.png"
 google-scholar: true
-css: ../../../asset/listing-article.css
+css:
+  - ../../../asset/listing-article.css
+  - ../../../asset/story.css
 links:
 - icon: file-richtext-fill
   name: Published Version
@@ -21,12 +23,96 @@ links:
   url: https://arxiv.org/abs/2209.14355
 ---
 
-**Abstract**: Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables.
-However, its usefulness to many researchers is limited for two reasons.
-First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically-motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes.
-Second, estimation is extremely computationally intensive for even modestly sized datasets.
-Our paper addresses both concerns by introducing generalized KRLS (*gKRLS*).
-We note that KRLS can be re-formulated as a hierarchical model thereby allowing easy inference and modular model construction where KRLS can be used alongside random effects, splines, and unregularized fixed effects.
-Computationally, we also implement random sketching to dramatically accelerate estimation while incurring a limited penalty in estimation quality.
-We demonstrate that *gKRLS* can be fit on datasets with tens of thousands of observations in under one minute.
-Further, state-of-the-art techniques that require fitting the model over a dozen times (e.g. meta-learners) can be estimated quickly.
+<script src="../../../js/story-scroll.js" defer></script>
+
+::: {.paper-story}
+::: {.story-progress}
+<span>Problem</span>
+<span>Idea</span>
+<span>Scale</span>
+<span>Contribution</span>
+:::
+
+::: {.story-step data-step="0"}
+::: {}
+<div class="story-kicker">The problem</div>
+
+## Flexible models are useful, but often hard to extend
+
+Kernel Regularized Least Squares (KRLS) is attractive because it can learn complex relationships without forcing researchers to specify a rigid functional form. The difficulty is that standard KRLS is not easy to combine with random effects, fixed effects, non-Gaussian outcomes, or newer causal machine-learning workflows.
+:::
+
+::: {.figure-panel}
+![Featured visual for the generalized KRLS paper](featured.png)
+
+<p class="figure-caption">The paper starts from a practical tension: flexible prediction is valuable, but social-science models also need modular structure and interpretable uncertainty.</p>
+:::
+:::
+
+::: {.story-step data-step="1"}
+::: {}
+<div class="story-kicker">The idea</div>
+
+## Recast KRLS as a modular statistical model
+
+We show that KRLS can be reformulated as a hierarchical model. That shift makes the method easier to combine with familiar components such as random effects, splines, and unregularized fixed effects.
+:::
+
+::: {.figure-panel}
+<div class="model-stack">
+  <div>Outcome model</div>
+  <div>Kernel component</div>
+  <div>Random effects, splines, fixed effects</div>
+  <div>Inference and prediction</div>
+</div>
+
+<p class="figure-caption">The central move is architectural: KRLS becomes one component in a broader statistical model rather than a standalone black box.</p>
+:::
+:::
+
+::: {.story-step data-step="2"}
+::: {}
+<div class="story-kicker">The scaling move</div>
+
+## Random sketching makes flexible learning practical
+
+The paper uses random sketching to reduce the computational burden of KRLS. This makes it possible to fit flexible models on datasets with tens of thousands of observations quickly enough for applied workflows.
+:::
+
+::: {.figure-panel}
+<div class="sketch-bars">
+  <div>Full kernel problem</div>
+  <div>Sketched approximation</div>
+  <div>Fast estimation target</div>
+</div>
+
+<p class="figure-caption">Random sketching trades a small amount of approximation for a large gain in computational speed.</p>
+:::
+:::
+
+::: {.story-step data-step="3"}
+::: {}
+<div class="story-kicker">What this changes</div>
+
+## A flexible method becomes easier to use in serious empirical designs
+
+Generalized KRLS helps researchers keep the flexibility of kernel learning while adding structure that applied social-science designs often require.
+:::
+
+::: {.figure-panel}
+<div class="contribution-list">
+  <div>Flexible nonlinear relationships</div>
+  <div>Modular model construction</div>
+  <div>Faster estimation through sketching</div>
+  <div>Better integration with modern causal workflows</div>
+</div>
+
+<p class="figure-caption">The contribution is not only speed. It is a more extensible way to bring statistical learning into interpretable social-science research.</p>
+:::
+:::
+
+## Abstract
+
+Kernel Regularized Least Squares (KRLS) is a popular method for flexibly estimating models that may have complex relationships between variables. However, its usefulness to many researchers is limited for two reasons. First, existing approaches are inflexible and do not allow KRLS to be combined with theoretically motivated extensions such as random effects, unregularized fixed effects, or non-Gaussian outcomes. Second, estimation is extremely computationally intensive for even modestly sized datasets. Our paper addresses both concerns by introducing generalized KRLS (*gKRLS*).
+
+:::

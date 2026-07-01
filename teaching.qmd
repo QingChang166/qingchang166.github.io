@@ -1,20 +1,36 @@
 ---
 title: "Teaching"
 title-block-banner: false
+page-layout: full
 format: 
   html: 
     page-layout: full
     css: asset/listing-default.css
 ---
 
-## Research Method for Political Science
+::: {.site-section}
+::: {.eyebrow}
+Teaching
+:::
+
+## Quantitative methods and political science research design
+
+::: {.course-list}
+::: {}
+### Research Method for Political Science
 
 Undergraduate Level
 
 [Fall 2020](https://github.com/QingChang166/qingchang166.github.io/tree/main/teaching/ps0700/)
+:::
 
-## Foundations of Quantitative Methods
+::: {}
+### Foundations of Quantitative Methods
 
 PhD Level
 
-[Fall 2022](https://github.com/QingChang166/qingchang166.github.io/tree/main/teaching/ps2010/),   [Fall 2023](https://github.com/QingChang166/qingchang166.github.io/tree/main/teaching/ps2010/)
+[Fall 2022](https://github.com/QingChang166/qingchang166.github.io/tree/main/teaching/ps2010/), [Fall 2023](https://github.com/QingChang166/qingchang166.github.io/tree/main/teaching/ps2010/)
+:::
+:::
+
+:::

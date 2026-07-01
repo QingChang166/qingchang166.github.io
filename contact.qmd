@@ -1,0 +1,9 @@
+---
+title: "Contact"
+title-block-banner: false
+page-layout: full
+---
+
+::: {.site-section}
+Email: [qic108@pitt.edu](mailto:qic108@pitt.edu)
+:::

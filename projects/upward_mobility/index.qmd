@@ -1,0 +1,119 @@
+---
+title: "Upward Mobility of Frontline Fossil Fuel Workers"
+subtitle: "A visual story about career pathways in the green sector"
+author:
+  - name: Qing Chang
+  - name: Michael Aklin
+  - name: Morgan R. Frank
+  - name: Shanti Gamper-Rabindran
+date: "2026-03-17"
+categories: [Labor Market, Green Transition, Workforce Development]
+image: ../../articles/working/upward_mobility/featured.png
+css:
+  - ../../asset/listing-article.css
+  - ../../asset/story.css
+title-block-banner: false
+---
+
+<script src="../../js/story-scroll.js" defer></script>
+<script src="../../js/research-lightbox.js" defer></script>
+
+::: {.paper-story .mobility-story}
+::: {.mobility-story-hero}
+::: {.story-kicker}
+Research Story
+:::
+
+## What happens after frontline fossil fuel workers leave their first fossil fuel job?
+
+The usual transition story emphasizes short-run moves into similar green jobs. This project asks a longer career question: whether the green sector can also create upward mobility into managerial, science, and engineering occupations.
+
+::: {.story-stat-grid}
+<div><strong>2000-2023</strong><span>career histories</span></div>
+<div><strong>40.2%</strong><span>held at least one green-sector job</span></div>
+<div><strong>2x</strong><span>higher probability of upward mobility</span></div>
+:::
+:::
+
+::: {.story-progress}
+<span>Question</span>
+<span>Mobility</span>
+<span>Wages</span>
+<span>Skills</span>
+<span>Policy</span>
+:::
+
+<section class="scrolly-deck" aria-label="Upward mobility scrollytelling">
+<div class="scrolly-stage" aria-live="polite">
+<figure class="scrolly-visual is-active" data-scrolly-visual="0" data-lightbox-src="../../articles/working/upward_mobility/featured.png" data-lightbox-alt="Network figure for upward mobility of frontline fossil fuel workers" role="button" tabindex="0" aria-label="Expand upward mobility overview figure">
+<img src="../../articles/working/upward_mobility/featured.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">The project tracks workers after their first frontline fossil fuel job and follows whether later transitions open higher-mobility destinations.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="1" data-lightbox-src="/projects/upward_mobility/figures/mobility-opportunity.png" data-lightbox-alt="Mobility opportunity figure from the upward mobility paper" role="button" tabindex="0" aria-label="Expand mobility opportunity figure">
+<img src="/projects/upward_mobility/figures/mobility-opportunity.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Green-sector transitions are associated with higher probabilities of entering managerial and science and engineering occupations.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="2" data-lightbox-src="/projects/upward_mobility/figures/career-wage-gains.png" data-lightbox-alt="Career wage gains figure from the upward mobility paper" role="button" tabindex="0" aria-label="Expand career wage gains figure">
+<img src="/projects/upward_mobility/figures/career-wage-gains.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Upwardly mobile workers experience larger wage gains when moving into green-sector roles than when remaining in fossil fuel employment.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="3" data-lightbox-src="/projects/upward_mobility/figures/skill-pathways.png" data-lightbox-alt="Skill pathways figure from the upward mobility paper" role="button" tabindex="0" aria-label="Expand skill pathways figure">
+<img src="/projects/upward_mobility/figures/skill-pathways.png" alt="">
+<span class="scrolly-expand-hint" aria-hidden="true">+</span>
+<p class="figure-caption">Occupation networks reveal possible sequences from frontline fossil fuel work into technical and managerial destinations.</p>
+</figure>
+
+<figure class="scrolly-visual" data-scrolly-visual="4">
+<div class="contribution-list">
+<div>Track workers across careers, not only single job changes.</div>
+<div>Compare green, fossil fuel, manufacturing, construction, and other destinations.</div>
+<div>Connect occupational mobility to wage trajectories.</div>
+<div>Identify skill pathways that can support upward movement.</div>
+</div>
+</figure>
+</div>
+
+<div class="scrolly-steps">
+<article class="scrolly-step is-active" data-scrolly-step="0">
+<span class="scrolly-step-number">01</span>
+<div class="story-kicker">The question</div>
+<h2>A just transition is not only about the next job</h2>
+<p>Frontline fossil fuel workers face disruption as fossil fuel employment declines. The key question is whether green-sector transitions can support career advancement over time, not only horizontal moves into familiar trade occupations.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="1">
+<span class="scrolly-step-number">02</span>
+<div class="story-kicker">Mobility advantage</div>
+<h2>Green-sector transitions open more upward pathways</h2>
+<p>Workers who move into the green sector are more likely to reach managerial, science, and engineering roles than comparable workers who remain in fossil fuel employment. The point is not that every green job is high-wage immediately; it is that the sector offers more pathways into upwardly mobile roles.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="2">
+<span class="scrolly-step-number">03</span>
+<div class="story-kicker">Wage payoff</div>
+<h2>Career gains become visible over the full trajectory</h2>
+<p>The wage story changes when careers are studied over time. Green-sector transitions are associated with higher cumulative wages, partly because more workers reach higher-mobility occupations and because science and engineering roles in the green sector carry especially strong wage gains.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="3">
+<span class="scrolly-step-number">04</span>
+<div class="story-kicker">Skill pathways</div>
+<h2>Mobility depends on the pathway, not only the destination</h2>
+<p>The paper maps how workers can move from frontline fossil fuel occupations toward engineering and managerial roles through stepping-stone occupations. Skill diversity is linked to managerial mobility, while deeper science and engineering skills are linked to technical mobility.</p>
+</article>
+
+<article class="scrolly-step" data-scrolly-step="4">
+<span class="scrolly-step-number">05</span>
+<div class="story-kicker">Policy implication</div>
+<h2>Workforce policy should support career ladders</h2>
+<p>Training policy often focuses on the first move out of fossil fuel employment. This project suggests a broader target: reskilling systems that help workers build pathways into higher-mobility green-sector occupations over the course of a career.</p>
+</article>
+</div>
+</section>
+:::
