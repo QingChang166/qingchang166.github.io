@@ -4,3 +4,8 @@
 /.superpowers/
 articles/working/upward_mobility/FFF_CareerMobility_main.pdf
 docs/articles/working/upward_mobility/FFF_CareerMobility_main.pdf
+/_site/
+/docs/_site/
+.Rhistory
+.playwright-cli/
+tmp/
