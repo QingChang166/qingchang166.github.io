@@ -25,6 +25,7 @@ check_contains "_quarto.yml" "text: Contact"
 check_contains "_quarto.yml" "href: contact.qmd"
 check_contains "_quarto.yml" "theme:"
 check_contains "_quarto.yml" "asset/theme.scss"
+check_contains "_quarto.yml" "css: styles-20260701.css"
 check_contains "asset/theme.scss" "/*-- scss:defaults --*/"
 check_contains "asset/theme.scss" '$body-bg: #050505;'
 check_contains "asset/theme.scss" '$body-color: #f4efe6;'
@@ -33,6 +34,7 @@ check_contains "asset/theme.scss" '$link-color: #d99358;'
 check_contains "asset/theme.scss" '$dropdown-bg: #101113;'
 
 check_contains "styles.css" "--site-bg: #050505;"
+check_contains "styles-20260701.css" "--site-bg: #050505;"
 check_contains "styles.css" "--text-main:"
 check_contains "styles.css" ".site-hero"
 check_contains "styles.css" ".research-signal-map"

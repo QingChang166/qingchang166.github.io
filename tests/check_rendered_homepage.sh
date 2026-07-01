@@ -23,6 +23,11 @@ if ! grep -Fq -- 'class="capability-console site-section"' "$repo_root/docs/inde
   exit 1
 fi
 
+if ! grep -Fq -- 'styles-20260701.css' "$repo_root/docs/index.html"; then
+  printf 'Homepage should reference the cache-busted stylesheet.\n' >&2
+  exit 1
+fi
+
 if ! grep -Fq -- 'Research Toolkit' "$repo_root/docs/index.html"; then
   printf 'Homepage is missing rendered Research Toolkit label.\n' >&2
   exit 1
