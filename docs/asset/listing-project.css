@@ -87,7 +87,7 @@ h5,
 
 .showcase-media {
   display: block;
-  height: 210px;
+  height: 100%;
   min-height: 210px;
   overflow: hidden;
   position: relative;
