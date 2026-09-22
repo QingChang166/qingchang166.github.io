@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "articles/**/*.qmd"
+    - "projects/**/*.qmd"
+    - "teaching/ps2010/*.md"
   resources:
     - CNAME
     - styles.css

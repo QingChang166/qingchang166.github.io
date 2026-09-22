@@ -41,12 +41,8 @@ page-layout: full
       <span>02</span>
       <strong>Future of Work</strong>
     </article>
-    <article class="research-node node-workforce">
-      <span>03</span>
-      <strong>Workforce Development</strong>
-    </article>
     <article class="research-node node-conflict">
-      <span>04</span>
+      <span>03</span>
       <strong>Graph AI & Conflict Forecasting</strong>
     </article>
   </div>
