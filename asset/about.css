@@ -1,0 +1,92 @@
+/* Keep the biography on the site's shared theme without affecting other pages. */
+.about-page #title-block-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.about-page #title-block-header .title {
+  font-size: 2.5rem;
+}
+
+.about-biography {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  align-items: start;
+  gap: 3rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.5rem 0 3rem;
+}
+
+.about-copy {
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.about-copy h2.about-name {
+  border: 0;
+  font-size: 1.65rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+}
+
+.about-name + p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.about-affiliations {
+  border-left: 2px solid var(--border);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.about-affiliations p {
+  margin: 0 0 0.5rem;
+}
+
+.about-affiliations p:last-child {
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+.about-copy h2:not(.about-name) {
+  border-top: 1px solid var(--border);
+  border-bottom: 0;
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem;
+  padding: 1.25rem 0 0;
+}
+
+/* A fixed aspect ratio prevents the portrait from shifting the text on load. */
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.about-portrait figure,
+.about-portrait p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .about-biography {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .about-portrait {
+    grid-row: 1;
+    width: 120px;
+  }
+}

@@ -212,23 +212,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Qing Chang",
+    "title": "About",
     "section": "",
-    "text": "Thanks for visiting my website!\nI am a Postdoctoral Researcher at the University of Pittsburgh’s Graduate School of Public and International Affairs, affiliated with the Resileient Economic Lab and the Responsible Data Science, Complexity, and AI for Peace (ReDSCAIP) Lab. Recognizing the complex nature of social and political issues, my research leverages large-scale, unstructured real-world data and cutting-edge machine learning architectures to provide insights into political incentives and development outcomes, the labor impacts of energy transitions, and conflict forecasting. Additionally, I develop innovative statistical tools that integrate causal inference and machine learning to enhance the rigor of social science research.\nBefore coming to the University of Pittsburgh, I received my Master degree in Political Science from Duke University and also graduated with a Master degree in Economics from the North Carolina State University.\nYou can reach me via email: qic108@pitt.edu. You can download my CV."
+    "text": "Research data scientist and computational social scientist\n\nHub for AI and Data Science Leadership (HAIL), University of Pittsburgh\nAffiliate: Responsible Data Science, Complexity, and AI for Peace Lab · Resilient Economy Lab\n\nI use AI, data, and rigorous social science methods to generate credible evidence on industrial policy, technological innovation, talent flows, and conflict.\n\n\n\nI received my Ph.D. in Political Science from the University of Pittsburgh, with fields in Comparative Politics and Political Methodology.\nBefore coming to Pittsburgh, I earned an M.S. in Political Science from Duke University and an M.S. in Economics from North Carolina State University."
   },
   {
-    "objectID": "about.html#my-expertise",
-    "href": "about.html#my-expertise",
-    "title": "Qing Chang",
-    "section": "My Expertise",
-    "text": "My Expertise\n\n\nSoftware\n  \n\nI leverage cutting-edge software to transform complex data into actionable insights. From advanced statistical analyses in R to high-performance computing with Arrow, my toolkit is designed for scalability and precision. Whether creating data pipelines or solving intricate computational problems, I use the right tools to deliver impactful results efficiently.\n\n\n\nSkills\n  \n\nWith expertise in tools like Shiny for interactive dashboards, sf for geospatial data analysis, and mlr for machine learning, I blend technical proficiency with creativity. My skillset bridges the gap between raw data and meaningful narratives, enabling me to tackle problems in spatial analytics, predictive modeling, and dynamic data visualization.\n\n\n\nTools\n \n\nEquipped with tools like Git for version control and Quarto for reproducible reports, I maintain a rigorous approach to collaboration and documentation. My workflow ensures transparency, reproducibility, and efficiency, empowering teams to focus on innovation while keeping everything well-organized and accessible."
+    "objectID": "about.html#qing-chang",
+    "href": "about.html#qing-chang",
+    "title": "About",
+    "section": "",
+    "text": "Research data scientist and computational social scientist\n\nHub for AI and Data Science Leadership (HAIL), University of Pittsburgh\nAffiliate: Responsible Data Science, Complexity, and AI for Peace Lab · Resilient Economy Lab\n\nI use AI, data, and rigorous social science methods to generate credible evidence on industrial policy, technological innovation, talent flows, and conflict."
   },
   {
-    "objectID": "about.html#recent-works",
-    "href": "about.html#recent-works",
-    "title": "Qing Chang",
-    "section": "Recent Works",
-    "text": "Recent Works\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\nPromotion Incentives, Political Competition, and Public Land Prices\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nWorking Paper\n\n\n\n\n\n\n\n\n\n\nUpward Mobility of Frontline Fossil Fuel Workers\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nProject\n\n\n\n\n\n\n\n\n\n\nJust Transition and Labor Market Dynamic\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "objectID": "about.html#academic-background",
+    "href": "about.html#academic-background",
+    "title": "About",
+    "section": "",
+    "text": "I received my Ph.D. in Political Science from the University of Pittsburgh, with fields in Comparative Politics and Political Methodology.\nBefore coming to Pittsburgh, I earned an M.S. in Political Science from Duke University and an M.S. in Economics from North Carolina State University."
   },
   {
     "objectID": "articles/published/gKRLS/index.html",
