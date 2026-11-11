@@ -161,7 +161,7 @@ footer .cr{margin:0;font:400 13px/1.55 var(--body);color:var(--ink-2)}
       <div class="step" data-step="mail"><div class="sn">14</div><h3>Democrats seized on the issue.</h3><p class="sub"><span data-n="mail_d"></span> of their campaign emails mentioned data centers, against <span data-n="mail_r"></span> Republican emails. Mentions peaked in <span data-n="mail_peak"></span>.</p></div>
       <div class="step" data-step="vote"><div class="sn">15</div><h3>On Election Day, almost every county swung toward Democrats.</h3><p class="sub">The Republican share fell in <span data-n="vote_share"></span> of counties with a Democrat-versus-Republican race.</p></div>
       <div class="step" data-step="dcn"><div class="sn">16</div><h3>Did places with data centers swing further? In <span data-n="dcn_neg"></span> of <span data-n="dcn_n"></span> states, counties with a data center swung further toward Democrats than their neighbors.</h3><p class="sub">Each state is compared on its own, so both sides voted in the same race. The gap reaches about <span data-n="dcn_max"></span> points.</p></div>
-      <div class="step" data-step="house"><div class="sn">17</div><h3>Democrats took <span data-n="flips_called"></span> House seats from Republicans.</h3><p class="sub">In <span data-n="flips_lead"></span> more Republican seats still being counted, the Democrat is ahead.</p></div>
+      <div class="step" data-step="house"><div class="sn">17</div><h3>Democrats are on track to take <span data-n="flips_all"></span> House seats from Republicans.</h3><p class="sub"><span data-n="flips_called"></span> are called. In <span data-n="flips_lead"></span> more, still being counted, the Democrat is ahead.</p></div>
       <div class="step" data-step="seats"><div class="sn">18</div><h3>Those flips put Democrats on track for a House majority.</h3><p class="sub">Local fights were no more common in the seats Democrats took: <span data-n="ff_f"></span> of <span data-n="ff_fn"></span> had one, against <span data-n="ff_k"></span> of <span data-n="ff_kn"></span> seats Republicans kept.</p></div>
     </div>
   </section>
@@ -640,7 +640,7 @@ document.querySelectorAll(".sub.quote[data-q]").forEach(e => e.innerHTML = quote
     mail_d: fmt(em("DEMOCRAT")), mail_r: fmt(em("REPUBLICAN")), mail_peak: mon(d3.timeParse("%Y-%m")(dPeak.month)),
     vote_share: pc0(100 * sw.filter(p => p.sw < 0).length / sw.length),
     dcn_neg: M.state_gaps.filter(s => s.gap < 0).length, dcn_n: M.state_gaps.length, dcn_max: d3.format(".0f")(Math.abs(d3.min(M.state_gaps, s => s.gap))),
-    flips_called: M.flips.called, flips_lead: M.flips.lead,
+    flips_called: M.flips.called, flips_lead: M.flips.lead, flips_all: M.flips.called + M.flips.lead,
     pk_op: M.pk_sites.find(s => s.mw).op, pk_mw: M.pk_sites.find(s => s.mw).mw, pk_acres: M.pk_sites.find(s => s.mw).acres,
     ff_f: M.held_r.flipped_fight, ff_fn: M.held_r.flipped, ff_k: M.held_r.kept_fight, ff_kn: M.held_r.kept
   };
