@@ -9,6 +9,7 @@ project:
   resources:
     - CNAME
     - styles.css
+    - projects/dc_ballot/**
 
 website:
   title: "Qing Chang"
